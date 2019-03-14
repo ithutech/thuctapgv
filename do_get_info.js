@@ -36,6 +36,7 @@ function doComplete() {
 }
 
 function giangVienGet() {
+	
     var email = $.trim($("input[name='txtGVEmail']").val());
     var sdt = $.trim($("input[name='txtGVSDT']").val());
     if(email=='' || sdt =='')
@@ -43,6 +44,8 @@ function giangVienGet() {
         alert("VUI LÒNG NHẬP ĐỦ THÔNG TIN EMAIL VÀ SỐ ĐIỆN THOẠI");
         return false;
     }
+	
+	$("#InfoGV").html('');
 
     var worksheets = [
         '', // defaults to first worksheet without id
