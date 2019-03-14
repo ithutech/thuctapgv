@@ -40,7 +40,7 @@ function giangVienGet() {
     var email = $.trim($("input[name='txtGVEmail']").val()).replace(/ /g,'');
     var sdt = $.trim($("input[name='txtGVSDT']").val()).replace(/ /g,'');
 	
-	var sdt1 = fid.substring(1, sdt.length);
+	var sdt1 = sdt.substring(1, sdt.length);
 	
     if(email=='' || sdt =='')
     {
