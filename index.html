@@ -128,6 +128,13 @@
             padding-right: 5px;
             padding-left: 5px;
         }
+		.btn-tuyendung{
+			float:right;
+			border:2px solid #ae3c33;
+			border-radius: 10px;
+			padding: 10px;
+			color:red;
+		}
 
     </style>
     <script src="./jquery-3.3.1.min.js"></script>
@@ -147,7 +154,10 @@
             <h1 style="text-align:center; color: red">CỔNG QUẢN LÝ THỰC TẬP TỐT NGHIỆP </h1>
             <h1 style="text-align: center; color: red">HỌC KỲ DOANH NGHIỆP</h1>
             <form name="submit-GV">
-                <h3>DÀNH CHO GIẢNG VIÊN</h3>
+                <h3 style="display:inline">DÀNH CHO GIẢNG VIÊN</h3>
+				
+					<a class="btn-tuyendung" href="https://www.hutech.edu.vn/khoacntt/doanh-nghiep/tuyen-dung" target="_blank" >TÌM CTY THỰC TẬP</a>
+				<p></p>
                 <div class="form-wrapper">
                     <label for="txtGVEmail">Email</label>
                     <input type="email" name="txtGVEmail" placeholder="Địa chỉ thư điện tử?" class="form-control" required="" oninvalid="this.setCustomValidity('Nhập Email')" oninput="setCustomValidity('')">
@@ -157,6 +167,7 @@
                     <input type="number" name="txtGVSDT" placeholder="Bạn phải nhập thêm SĐT để kiểm tra" class="form-control" required="" oninvalid="this.setCustomValidity('Nhập SĐT')" oninput="setCustomValidity('')">
                 </div>
                 <button type="button" onclick="stepGetGiangVien(); return false;">TRA CỨU DANH SÁCH HƯỚNG DẪN</button>
+				
             </form>
             <div id="InfoGV" style="padding: 10px">
             </div>
