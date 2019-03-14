@@ -54,7 +54,7 @@ function giangVienGet() {
         $.googleSheetToJSON('1nO2nV65Vi3dZWGlaIOXLEc-_JWEZK16XFbjQVH_3Q0U', worksheet)
             .done(function (rows) {
                 var strText = "<table class='dtable'>";
-                strText += "<tr><th>Tên SV</th>  <th>Lớp</th>  <th>Mã SV</th>  <th>Ngành</th>  <th>Ngày sinh</th>   <th>Email SV</th>  <th>Số ĐT </th>  <th>Môn Học</th> ";
+                strText += "<tr><th>Tên SV</th>  <th>Lớp</th>  <th>Mã SV</th>  <th>Ngành</th>  <th>Ngày sinh</th>   <th>Môn học</th>  <th>SĐT SV</th>  <th>Email SV</th> ";
                 var count = 0;
                 rows.forEach(function (row) {
                     var strEmail = row['gvemail'].replace(/ /g,'');
