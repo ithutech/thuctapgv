@@ -37,8 +37,8 @@ function doComplete() {
 
 function giangVienGet() {
 	
-    var email = $.trim($("input[name='txtGVEmail']").val());
-    var sdt = $.trim($("input[name='txtGVSDT']").val());
+    var email = $.trim($("input[name='txtGVEmail']").val()).replace(/ /g,'');
+    var sdt = $.trim($("input[name='txtGVSDT']").val()).replace(/ /g,'');
     if(email=='' || sdt =='')
     {
         alert("VUI LÒNG NHẬP ĐỦ THÔNG TIN EMAIL VÀ SỐ ĐIỆN THOẠI");
@@ -57,8 +57,8 @@ function giangVienGet() {
                 strText += "<tr><th>Tên SV</th>  <th>Lớp</th>  <th>Mã SV</th>  <th>Ngành</th>  <th>Ngày sinh</th>   <th>Email SV</th>  <th>Số ĐT </th>  <th>Môn Học</th> ";
                 var count = 0;
                 rows.forEach(function (row) {
-                    var strEmail = row['gvemail'];
-                    var strDT = row['gvdienthoai'];
+                    var strEmail = row['gvemail'].replace(/ /g,'');
+                    var strDT = row['gvdienthoai'].replace(/ /g,'');
                     if (strEmail == email && strDT == sdt) {
                         count++;
                         strText += "<tr>";
