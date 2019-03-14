@@ -39,6 +39,9 @@ function giangVienGet() {
 	
     var email = $.trim($("input[name='txtGVEmail']").val()).replace(/ /g,'');
     var sdt = $.trim($("input[name='txtGVSDT']").val()).replace(/ /g,'');
+	
+	var sdt1 = fid.substring(1, sdt.length);
+	
     if(email=='' || sdt =='')
     {
         alert("VUI LÒNG NHẬP ĐỦ THÔNG TIN EMAIL VÀ SỐ ĐIỆN THOẠI");
@@ -59,7 +62,7 @@ function giangVienGet() {
                 rows.forEach(function (row) {
                     var strEmail = row['gvemail'].replace(/ /g,'');
                     var strDT = row['gvdienthoai'].replace(/ /g,'');
-                    if (strEmail == email && strDT == sdt) {
+				if (strEmail == email && (strDT == sdt || strDT == sdt1)) {
                         count++;
                         strText += "<tr>";
                         Object.getOwnPropertyNames(row).forEach(function (name) {
