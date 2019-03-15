@@ -165,9 +165,9 @@
                 </div>
                 <div class="form-wrapper">
                     <label for="txtGVSDT">SĐT</label>
-                    <input type="number" name="txtGVSDT" placeholder="Bạn phải nhập thêm SĐT để kiểm tra" class="form-control" required="" oninvalid="this.setCustomValidity('Nhập SĐT')" oninput="setCustomValidity('')">
+                    <input id="inGVSDT" type="number" name="txtGVSDT" placeholder="Bạn phải nhập thêm SĐT để kiểm tra" class="form-control" required="" oninvalid="this.setCustomValidity('Nhập SĐT')" oninput="setCustomValidity('')">
                 </div>
-                <button type="button" onclick="stepGetGiangVien(); return false;">TRA CỨU DANH SÁCH HƯỚNG DẪN</button>
+                <button id="btnDoGV" type="button" onclick="stepGetGiangVien(); return false;">TRA CỨU DANH SÁCH HƯỚNG DẪN</button>
 				
             </form>
             <div id="InfoGV" style="padding: 10px">
