@@ -90,7 +90,10 @@ function giangVienGet() {
                 if (count == 0)
                     $("#InfoGV").html('Không tìm thấy thông tin');
                 else
+				{
                     $("#InfoGV").html(strText);
+					alert("<h2>SLHD: "+count+"</h2>");
+				}
             })
             .fail(function (err) {
                 console.log('error!', err);
