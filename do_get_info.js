@@ -61,7 +61,8 @@ function giangVienGet() {
         return false;
     }
 	
-	$("#InfoGV").html('');
+	$("#InfoGV").html("");
+	$("#countHDGV").html("");
 
     var worksheets = [
         '', // defaults to first worksheet without id
@@ -92,7 +93,7 @@ function giangVienGet() {
                 else
 				{
                     $("#InfoGV").html(strText);
-					alert("<h2>SLHD: "+count+"</h2>");
+					$("#countHDGV").html("<h2>SLHD: "+count+"</h2>");
 				}
             })
             .fail(function (err) {
