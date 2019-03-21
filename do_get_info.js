@@ -62,7 +62,6 @@ function giangVienGet() {
     }
 	
 	$("#InfoGV").html('');
-	$("#countHD").html('');
 
     var worksheets = [
         '', // defaults to first worksheet without id
@@ -91,10 +90,7 @@ function giangVienGet() {
                 if (count == 0)
                     $("#InfoGV").html('Không tìm thấy thông tin');
                 else
-				{
                     $("#InfoGV").html(strText);
-					$("#countHD").html("<h2>số lương HD: "+count+"</h2">);
-				}
             })
             .fail(function (err) {
                 console.log('error!', err);
