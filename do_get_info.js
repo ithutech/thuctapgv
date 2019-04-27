@@ -80,7 +80,7 @@ function giangVienGet() {
                         count++;
                         strText += "<tr>";
                         Object.getOwnPropertyNames(row).forEach(function (name) {
-                            if (name == 'sotc' || name == 'tt' || name == 'gvhoten' || name == 'gvemail' || name == 'gvdienthoai' || name == 'mand' || name == 'nhom' || name == 'mamh')
+                            if (name == 'sotc' || name == 'tt' || name == 'gvhoten' || name == 'gvemail' || name == 'gvdienthoai' || name == 'mand' || name == 'nhom' || name == 'mamh' || name ==='congty' || name === 'diachi' || name === 'ngaybatdau' || name === 'dienthoaiquanly' || name ==='chucvu' || name === 'vitricongviec' || name.match(/tuan.*/))
                                 return;
                             var val = [].concat(row[name]).join(' / ');
                             strText += "<td>" + val + "</td>";
