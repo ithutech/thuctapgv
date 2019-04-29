@@ -71,20 +71,26 @@ function giangVienGet() {
         $.googleSheetToJSON('1nO2nV65Vi3dZWGlaIOXLEc-_JWEZK16XFbjQVH_3Q0U', worksheet)
             .done(function (rows) {
                 var strText = "<table class='dtable'>";
-                strText += "<tr><th>Tên SV</th>  <th>Lớp</th>  <th>Mã SV</th>  <th>Ngành</th>  <th>Ngày sinh</th>   <th>Email SV</th>  <th>SĐT SV</th>  <th>Môn</th> ";
+                strText += "<tr><th>Tên SV</th>  <th>Lớp</th>  <th>Mã SV</th>  <th>Ngành</th>  <th>Ngày sinh</th>   <th>Email SV</th>  <th>SĐT SV</th>  <th>Môn</th><th>Xem Báo Cáo</th> ";
                 var count = 0;
+                var newMaSV;
                 rows.forEach(function (row) {
                     var strEmail = row['gvemail'].replace(/ /g,'');
                     var strDT = row['gvdienthoai'].replace(/ /g,'');
 				if (strEmail == email && (strDT == sdt || strDT == sdt1)) {
                         count++;
                         strText += "<tr>";
+                       
                         Object.getOwnPropertyNames(row).forEach(function (name) {
+                           
                             if (name == 'sotc' || name == 'tt' || name == 'gvhoten' || name == 'gvemail' || name == 'gvdienthoai' || name == 'mand' || name == 'nhom' || name == 'mamh' || name ==='congty' || name === 'diachi' || name === 'ngaybatdau' || name === 'dienthoaiquanly' || name ==='chucvu' || name === 'vitricongviec' || name.match(/tuan.*/))
                                 return;
                             var val = [].concat(row[name]).join(' / ');
                             strText += "<td>" + val + "</td>";
+                            if(name == "masv")
+                                newMaSV = row[name];
                         });
+                        strText += "<td><span onclick='xemBaoCao("+newMaSV+")' class='report_'>XEM BÁO CÁO</span></td>";
                         strText += "</tr>";
                     }
                 });
@@ -101,4 +107,59 @@ function giangVienGet() {
 
             });
     });
+}
+
+function xemBaoCao(masv) {
+    var worksheets = [
+    '', 
+    'ouab0ad'];
+
+    strTextCongTy = "<table class='dtable'>";
+    strTextCongTy += "<tr><th>Công Ty</th>  <th>Địa chỉ</th>  <th>Ngày bắt đầu</th>  <th>ĐT Người quản lý</th>  <th>Chức Vụ</th>   <th>Vị trí công việc</th> ";
+    
+    strTextBaoCao = "<div class='baocao'>";
+    strTextCongTy += "<tr>";
+    document.querySelector('.js-loading').classList.remove('is-hidden');
+    worksheets.forEach(function (worksheet) {
+        $.googleSheetToJSON('1nO2nV65Vi3dZWGlaIOXLEc-_JWEZK16XFbjQVH_3Q0U', worksheet)
+        .done(function (rows) {                      
+            rows.forEach(function (row) {                
+                if(row["masv"] == masv){
+                    Object.getOwnPropertyNames(row).forEach(function (name) {                        
+                        if (name ==='congty' || name === 'diachi' || name === 'ngaybatdau' || name === 'dienthoaiquanly' || name ==='chucvu' || name === 'vitricongviec')
+                        {
+                            //buid table 1
+                            var val = [].concat(row[name]).join(' / ');
+                            strTextCongTy += "<td>" + val + "</td>";
+                        }
+                        else if(name.match(/tuan.*/)){
+                            //build table 2
+                            var val = [].concat(row[name]).join(' / ');
+                            strTextBaoCao += "<strong>" + name + "</strong></br>";
+                            strTextBaoCao += "<p>" + val + "</p>";
+                        }                      
+                    });
+                    
+                }
+                return;
+            });
+            document.querySelector('.js-loading').classList.add('is-hidden');
+            strTextCongTy += "</tr></table>";
+            strTextBaoCao += "</div>";
+            bootbox.alert({
+                message: strTextCongTy + strTextBaoCao,
+                size: 'large'
+            });
+        })
+        .fail(function (err) {
+            console.log('error!', err);
+        });
+
+    });
+
+    
+}
+
+function getInfo(masv) {
+
 }
