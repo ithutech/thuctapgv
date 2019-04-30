@@ -103,8 +103,12 @@ function giangVienGet() {
 				}
             })
             .fail(function (err) {
-                console.log('error!', err);
-
+                // console.log('error!', err);
+                // alert("LỖI DO MÁY CHỦ GOOGLE SHEET");
+                bootbox.alert({
+                    message: "LỖI DO MÁY CHỦ GOOGLE SHEET KHÔNG TRUY CẬP ĐƯỢC\n VUI LÒNG THỬ LẠI SAU ÍT PHÚT",
+                    size: 'small'
+                });
             });
     });
 }
@@ -117,7 +121,7 @@ function xemBaoCao(masv) {
     strTextCongTy = "<table class='dtable'>";
     strTextCongTy += "<tr><th>Công Ty</th>  <th>Địa chỉ</th>  <th>Ngày bắt đầu</th>  <th>ĐT Người quản lý</th>  <th>Chức Vụ</th>   <th>Vị trí công việc</th> ";
     
-    strTextBaoCao = "<div class='baocao'>";
+    strTextBaoCao = "<div class='baocao'></div>";
     strTextCongTy += "<tr>";
     document.querySelector('.js-loading').classList.remove('is-hidden');
     worksheets.forEach(function (worksheet) {
@@ -145,21 +149,20 @@ function xemBaoCao(masv) {
             });
             document.querySelector('.js-loading').classList.add('is-hidden');
             strTextCongTy += "</tr></table>";
-            strTextBaoCao += "</div>";
+            // strTextBaoCao += "</div>";
             bootbox.alert({
                 message: strTextCongTy + strTextBaoCao,
                 size: 'large'
             });
         })
         .fail(function (err) {
-            console.log('error!', err);
+             bootbox.alert({
+                message: "LỖI DO MÁY CHỦ GOOGLE SHEET KHÔNG TRUY CẬP ĐƯỢC\n VUI LÒNG THỬ LẠI SAU ÍT PHÚT",
+                size: 'small'
+            });
         });
 
     });
 
     
-}
-
-function getInfo(masv) {
-
 }
