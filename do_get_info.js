@@ -104,11 +104,7 @@ function giangVienGet() {
             })
             .fail(function (err) {
                 // console.log('error!', err);
-                // alert("LỖI DO MÁY CHỦ GOOGLE SHEET");
-                bootbox.alert({
-                    message: "LỖI DO MÁY CHỦ GOOGLE SHEET KHÔNG TRUY CẬP ĐƯỢC\n VUI LÒNG THỬ LẠI SAU ÍT PHÚT",
-                    size: 'small'
-                });
+                // alert("LỖI DO MÁY CHỦ GOOGLE SHEET");                
             });
     });
 }
@@ -156,10 +152,7 @@ function xemBaoCao(masv) {
             });
         })
         .fail(function (err) {
-             bootbox.alert({
-                message: "LỖI DO MÁY CHỦ GOOGLE SHEET KHÔNG TRUY CẬP ĐƯỢC\n VUI LÒNG THỬ LẠI SAU ÍT PHÚT",
-                size: 'small'
-            });
+            //
         });
 
     });
