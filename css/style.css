@@ -374,3 +374,7 @@ span.ttsv b {
       }
 
     }
+    div#baocao {
+      border: 1px solid lightgrey;
+      padding: 10px 0 10px 13px;
+  }
