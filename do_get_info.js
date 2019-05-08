@@ -83,7 +83,7 @@ function giangVienGet() {
 
                         Object.getOwnPropertyNames(row).forEach(function (name) {
 
-                            if (name == 'sotc' || name == 'tt' || name == 'gvhoten' || name == 'gvemail' || name == 'gvdienthoai' || name == 'mand' || name == 'nhom' || name == 'mamh' || name === 'congty' || name === 'diachi' || name === 'ngaybatdau' || name === 'dienthoaiquanly' || name === 'chucvu' || name === 'vitricongviec' || name.match(/tuan.*/))
+                            if (name == 'sotc' || name == 'tt' || name == 'gvhoten' || name == 'gvemail' || name == 'gvdienthoai' || name == 'mand' || name == 'nhom' || name == 'mamh' || name === 'congty' || name === 'website' || name === 'ngaybatdau' || name === 'ngaydukienketthuc' || name === 'hotennguoiquanli' || name === 'dienthoaiquanly' || name === 'emailnguoiquanli' || name === 'chucvu' || name === 'vitricongviec' || name.match(/tuan.*/))
                                 return;
                             var val = [].concat(row[name]).join(' / ');
                             strText += "<td>" + val + "</td>";
@@ -117,7 +117,7 @@ function xemBaoCao(masv) {
     strTextThongTinSV += "<label class='lb_ttsv'>Thông tin sinh viên </label></br>";
 
     strTextCongTy = "<table class='dtable'>";   
-    strTextCongTy += "<tr><th>Chức vụ</th>  <th>Công ty</th>  <th>Địa chỉ</th>  <th>ĐT Người quản lý</th>  <th>Ngày bắt đầu</th>   <th>Vị trí công việc</th> ";
+    strTextCongTy += "<tr><th>Chức vụ</th>  <th>Công ty</th>  <th>Điện thoại QL</th> <th>Email người QL</th> <th>Họ tên quản lý</th> <th>Ngày bắt đầu</th>  <th>Ngày dự kiến kết thúc</th>     <th>Vị trí công việc</th> <th>Website</th> ";
 
     strTextBaoCao = "<div id='baocao'>";
     strTextBaoCao += "<div class='body-baocao'>";
@@ -135,7 +135,7 @@ function xemBaoCao(masv) {
                                 var val = [].concat(row[name]).join(' / ');
                                 strTextThongTinSV += "<span class='ttsv'>" + "<b>" + val + "</b>" + "</span> </br>";
                             }
-                            if (name === 'congty' || name === 'diachi' || name === 'ngaybatdau' || name === 'dienthoaiquanly' || name === 'chucvu' || name === 'vitricongviec') 
+                            if (name === 'congty' || name === 'website' || name === 'ngaybatdau' || name === 'ngaydukienketthuc' || name === 'hotennguoiquanli' || name === 'dienthoaiquanly' || name === 'chucvu' || name === 'emailnguoiquanli' || name === 'vitricongviec') 
                             {
                                 //buid table 1
                                 var val = [].concat(row[name]).join(' / ');
