@@ -1,3 +1,304 @@
-var _0x94ec=["\x69\x6E\x47\x56\x53\x44\x54","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x6B\x65\x79\x75\x70","\x6B\x65\x79\x43\x6F\x64\x65","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x63\x6C\x69\x63\x6B","\x62\x74\x6E\x44\x6F\x47\x56","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x74\x68\x65\x6E","\x69\x73\x2D\x68\x69\x64\x64\x65\x6E","\x72\x65\x6D\x6F\x76\x65","\x63\x6C\x61\x73\x73\x4C\x69\x73\x74","\x2E\x6A\x73\x2D\x6C\x6F\x61\x64\x69\x6E\x67","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x61\x64\x64","","\x72\x65\x70\x6C\x61\x63\x65","\x76\x61\x6C","\x69\x6E\x70\x75\x74\x5B\x6E\x61\x6D\x65\x3D\x27\x74\x78\x74\x47\x56\x45\x6D\x61\x69\x6C\x27\x5D","\x74\x72\x69\x6D","\x69\x6E\x70\x75\x74\x5B\x6E\x61\x6D\x65\x3D\x27\x74\x78\x74\x47\x56\x53\x44\x54\x27\x5D","\x6C\x65\x6E\x67\x74\x68","\x73\x75\x62\x73\x74\x72\x69\x6E\x67","\x56\x55\x49\x20\x4C\xD2\x4E\x47\x20\x4E\x48\u1EAC\x50\x20\u0110\u1EE6\x20\x54\x48\xD4\x4E\x47\x20\x54\x49\x4E\x20\x45\x4D\x41\x49\x4C\x20\x56\xC0\x20\x53\u1ED0\x20\u0110\x49\u1EC6\x4E\x20\x54\x48\x4F\u1EA0\x49","\x68\x74\x6D\x6C","\x23\x49\x6E\x66\x6F\x47\x56","\x23\x63\x6F\x75\x6E\x74\x48\x44\x47\x56","\x6F\x75\x61\x62\x30\x61\x64","\x66\x61\x69\x6C","\x3C\x74\x61\x62\x6C\x65\x20\x63\x6C\x61\x73\x73\x3D\x27\x64\x74\x61\x62\x6C\x65\x27\x3E","\x3C\x74\x72\x3E\x3C\x74\x68\x3E\x54\xEA\x6E\x20\x53\x56\x3C\x2F\x74\x68\x3E\x20\x20\x3C\x74\x68\x3E\x4C\u1EDB\x70\x3C\x2F\x74\x68\x3E\x20\x20\x3C\x74\x68\x3E\x4D\xE3\x20\x53\x56\x3C\x2F\x74\x68\x3E\x20\x20\x3C\x74\x68\x3E\x4E\x67\xE0\x6E\x68\x3C\x2F\x74\x68\x3E\x20\x20\x3C\x74\x68\x3E\x4E\x67\xE0\x79\x20\x73\x69\x6E\x68\x3C\x2F\x74\x68\x3E\x20\x20\x20\x3C\x74\x68\x3E\x45\x6D\x61\x69\x6C\x20\x53\x56\x3C\x2F\x74\x68\x3E\x20\x20\x3C\x74\x68\x3E\x53\u0110\x54\x20\x53\x56\x3C\x2F\x74\x68\x3E\x20\x20\x3C\x74\x68\x3E\x4D\xF4\x6E\x3C\x2F\x74\x68\x3E\x3C\x74\x68\x3E\x58\x65\x6D\x20\x42\xE1\x6F\x20\x43\xE1\x6F\x3C\x2F\x74\x68\x3E\x20","\x67\x76\x65\x6D\x61\x69\x6C","\x67\x76\x64\x69\x65\x6E\x74\x68\x6F\x61\x69","\x3C\x74\x72\x3E","\x73\x6F\x74\x63","\x74\x74","\x67\x76\x68\x6F\x74\x65\x6E","\x6D\x61\x6E\x64","\x6E\x68\x6F\x6D","\x6D\x61\x6D\x68","\x63\x6F\x6E\x67\x74\x79","\x64\x69\x61\x63\x68\x69","\x6E\x67\x61\x79\x62\x61\x74\x64\x61\x75","\x64\x69\x65\x6E\x74\x68\x6F\x61\x69\x71\x75\x61\x6E\x6C\x79","\x63\x68\x75\x63\x76\x75","\x76\x69\x74\x72\x69\x63\x6F\x6E\x67\x76\x69\x65\x63","\x6D\x61\x74\x63\x68","\x20\x2F\x20","\x6A\x6F\x69\x6E","\x63\x6F\x6E\x63\x61\x74","\x3C\x74\x64\x3E","\x3C\x2F\x74\x64\x3E","\x6D\x61\x73\x76","\x66\x6F\x72\x45\x61\x63\x68","\x67\x65\x74\x4F\x77\x6E\x50\x72\x6F\x70\x65\x72\x74\x79\x4E\x61\x6D\x65\x73","\x3C\x74\x64\x3E\x3C\x73\x70\x61\x6E\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x27\x78\x65\x6D\x42\x61\x6F\x43\x61\x6F\x28","\x29\x27\x20\x63\x6C\x61\x73\x73\x3D\x27\x72\x65\x70\x6F\x72\x74\x5F\x27\x3E\x58\x45\x4D\x20\x42\xC1\x4F\x20\x43\xC1\x4F\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x74\x64\x3E","\x3C\x2F\x74\x72\x3E","\x4B\x68\xF4\x6E\x67\x20\x74\xEC\x6D\x20\x74\x68\u1EA5\x79\x20\x74\x68\xF4\x6E\x67\x20\x74\x69\x6E","\x3C\x68\x32\x3E\x53\x4C\x48\x44\x3A\x20","\x3C\x2F\x68\x32\x3E","\x64\x6F\x6E\x65","\x31\x6E\x4F\x32\x6E\x56\x36\x35\x56\x69\x33\x64\x5A\x57\x47\x6C\x61\x49\x4F\x58\x4C\x45\x63\x2D\x5F\x4A\x57\x45\x5A\x4B\x31\x36\x58\x46\x62\x6A\x51\x56\x48\x5F\x33\x51\x30\x55","\x67\x6F\x6F\x67\x6C\x65\x53\x68\x65\x65\x74\x54\x6F\x4A\x53\x4F\x4E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x27\x74\x65\x6E\x5F\x6D\x73\x73\x76\x5F\x73\x76\x27\x3E","\x3C\x6C\x61\x62\x65\x6C\x20\x63\x6C\x61\x73\x73\x3D\x27\x6C\x62\x5F\x74\x74\x73\x76\x27\x3E\x54\x68\xF4\x6E\x67\x20\x74\x69\x6E\x20\x73\x69\x6E\x68\x20\x76\x69\xEA\x6E\x20\x3C\x2F\x6C\x61\x62\x65\x6C\x3E\x3C\x2F\x62\x72\x3E","\x3C\x74\x72\x3E\x3C\x74\x68\x3E\x43\x68\u1EE9\x63\x20\x76\u1EE5\x3C\x2F\x74\x68\x3E\x20\x20\x3C\x74\x68\x3E\x43\xF4\x6E\x67\x20\x74\x79\x3C\x2F\x74\x68\x3E\x20\x20\x3C\x74\x68\x3E\u0110\u1ECB\x61\x20\x63\x68\u1EC9\x3C\x2F\x74\x68\x3E\x20\x20\x3C\x74\x68\x3E\u0110\x54\x20\x4E\x67\u01B0\u1EDD\x69\x20\x71\x75\u1EA3\x6E\x20\x6C\xFD\x3C\x2F\x74\x68\x3E\x20\x20\x3C\x74\x68\x3E\x4E\x67\xE0\x79\x20\x62\u1EAF\x74\x20\u0111\u1EA7\x75\x3C\x2F\x74\x68\x3E\x20\x20\x20\x3C\x74\x68\x3E\x56\u1ECB\x20\x74\x72\xED\x20\x63\xF4\x6E\x67\x20\x76\x69\u1EC7\x63\x3C\x2F\x74\x68\x3E\x20","\x3C\x75\x6C\x20\x69\x64\x3D\x27\x62\x61\x6F\x63\x61\x6F\x27\x3E","\x68\x6F\x74\x65\x6E","\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27\x74\x74\x73\x76\x27\x3E","\x3C\x62\x3E","\x3C\x2F\x62\x3E","\x3C\x2F\x73\x70\x61\x6E\x3E\x20\x3C\x2F\x62\x72\x3E","\x3C\x6C\x69\x20\x69\x64\x3D","\x3E","\x3C\x64\x69\x76\x20\x73\x74\x79\x6C\x65\x3D\x27\x68\x65\x69\x67\x68\x74\x3A\x20\x33\x37\x70\x78\x3B\x27\x3E","\x3C\x73\x74\x72\x6F\x6E\x67\x20\x69\x64\x3D","\x3C\x2F\x73\x74\x72\x6F\x6E\x67\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x27\x62\x6F\x78\x2D\x6E\x6F\x74\x69\x27\x3E","\x3C\x62\x75\x74\x74\x6F\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27\x62\x74\x6E\x2D\x76\x69\x65\x77\x2D\x63\x74\x27\x20\x69\x64\x3D","\x62\x74\x6E\x2D","\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x22\x78\x65\x6D\x4E\x6F\x69\x44\x75\x6E\x67\x28\x27","\x63\x74","\x27\x29\x3B\x22\x20\x3E\x58\x65\x6D\x20\x6E\u1ED9\x69\x20\x64\x75\x6E\x67\x20\x62\xE1\x6F\x20\x63\xE1\x6F\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x3C\x73\x70\x61\x6E\x20\x69\x64\x3D","\x73\x68\x6F\x77\x68\x69\x64\x65\x2D","\x20\x63\x6C\x61\x73\x73\x3D\x27\x6E\x65\x77\x2D\x6E\x6F\x74\x69\x66\x27\x20\x73\x74\x79\x6C\x65\x3D\x27\x64\x69\x73\x70\x6C\x61\x79\x3A\x6E\x6F\x6E\x65\x3B\x27\x3E\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x64\x69\x76\x20\x69\x64\x3D","\x74\x69\x6D\x65\x2D","\x20\x63\x6C\x61\x73\x73\x3D\x27\x74\x69\x6D\x65\x2D\x62\x61\x6F\x63\x61\x6F\x27\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x64\x69\x76\x20\x73\x74\x79\x6C\x65\x3D\x27\x63\x6C\x65\x61\x72\x3A\x62\x6F\x74\x68\x3B\x27\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x70\x20\x69\x64\x3D","\x20\x73\x74\x79\x6C\x65\x3D\x27\x64\x69\x73\x70\x6C\x61\x79\x3A\x6E\x6F\x6E\x65\x3B\x27\x20\x3E","\x3C\x2F\x70\x3E","\x3C\x2F\x6C\x69\x3E","\x3C\x2F\x64\x69\x76\x3E","\x3C\x2F\x74\x72\x3E\x3C\x2F\x74\x61\x62\x6C\x65\x3E","\x3C\x64\x69\x76\x3E\x3C\x64\x69\x76\x20\x69\x64\x3D\x27\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x31\x27\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x64\x69\x76\x20\x69\x64\x3D\x27\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x32\x27\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x64\x69\x76\x20\x69\x64\x3D\x27\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x33\x27\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x64\x69\x76\x20\x69\x64\x3D\x27\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x34\x27\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x64\x69\x76\x20\x69\x64\x3D\x27\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x35\x27\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x2F\x75\x6C\x3E","\x6C\x61\x72\x67\x65","\x61\x6C\x65\x72\x74","\x74\x75\x61\x6E\x2D\x6D\x6F\x74","\x74\x75\x61\x6E\x2D\x68\x61\x69","\x74\x75\x61\x6E\x2D\x62\x61","\x74\x75\x61\x6E\x2D\x62\x6F\x6E","\x74\x75\x61\x6E\x2D\x6E\x61\x6D","\x74\x75\x61\x6E\x2D\x73\x61\x75","\x74\x75\x61\x6E\x2D\x62\x61\x79","\x74\x75\x61\x6E\x2D\x74\x61\x6D","\x74\x75\x61\x6E\x2D\x63\x68\x69\x6E","\x74\x75\x61\x6E\x2D\x6D\x75\x6F\x69","\x74\x75\x61\x6E\x2D\x6D\x75\x6F\x69\x2D\x6D\x6F\x74","\x74\x75\x61\x6E\x2D\x6D\x75\x6F\x69\x2D\x68\x61\x69","\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x6D\x6F\x74","\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x68\x61\x69","\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x62\x61","\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x62\x6F\x6E","\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x6E\x61\x6D","\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x73\x61\x75","\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x62\x61\x79","\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x74\x61\x6D","\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x63\x68\x69\x6E","\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x6D\x75\x6F\x69","\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x6D\x75\x6F\x69\x2D\x6D\x6F\x74","\x74\x69\x6D\x65\x2D\x74\x75\x61\x6E\x2D\x6D\x75\x6F\x69\x2D\x68\x61\x69","\x69\x64","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x23\x62\x61\x6F\x63\x61\x6F","\x61\x70\x70\x65\x6E\x64\x54\x6F","\x65\x61\x63\x68","\x73\x6F\x72\x74","\x23\x62\x61\x6F\x63\x61\x6F\x20\x6C\x69","\x54\x75\u1EA7\x6E\x20\x31\x3A","\x54\x75\u1EA7\x6E\x20\x32\x3A","\x54\x75\u1EA7\x6E\x20\x33\x3A","\x54\x75\u1EA7\x6E\x20\x34\x3A","\x54\x75\u1EA7\x6E\x20\x35\x3A","\x54\x75\u1EA7\x6E\x20\x36\x3A","\x54\x75\u1EA7\x6E\x20\x37\x3A","\x54\x75\u1EA7\x6E\x20\x38\x3A","\x54\x75\u1EA7\x6E\x20\x39\x3A","\x54\x75\u1EA7\x6E\x20\x31\x30\x3A","\x54\x75\u1EA7\x6E\x20\x31\x31\x3A","\x54\x75\u1EA7\x6E\x20\x31\x32\x3A","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x23\x74\x68\x6F\x6E\x67\x74\x69\x6E\x5F\x74\x75\x61\x6E","\x53\x68\x65\x65\x74\x33","\x33","\x73\x6F\x74\x75\x61\x6E\x74\x68\x75\x63\x68\x69\x65\x6E","\x4C\u1ED7\x69","\x2F","\x73\x70\x6C\x69\x74","\x67\x65\x74\x44\x61\x74\x65","\x73\x65\x74\x44\x61\x74\x65","\x54\u1EEB\x20","\x76\x69\x2D\x56\x4E","\x74\x6F\x4C\x6F\x63\x61\x6C\x65\x44\x61\x74\x65\x53\x74\x72\x69\x6E\x67","\x70\x75\x73\x68","\x20\u0111\u1EBF\x6E\x20","\x64\x69\x73\x70\x6C\x61\x79","\x73\x74\x79\x6C\x65","\x6E\x6F\x6E\x65","\x63\x74\x74\x75\x61\x6E\x2D\x6D\x6F\x74","\x63\x74\x74\x75\x61\x6E\x2D\x68\x61\x69","\x63\x74\x74\x75\x61\x6E\x2D\x62\x61","\x63\x74\x74\x75\x61\x6E\x2D\x62\x6F\x6E","\x63\x74\x74\x75\x61\x6E\x2D\x6E\x61\x6D","\x63\x74\x74\x75\x61\x6E\x2D\x73\x61\x75","\x63\x74\x74\x75\x61\x6E\x2D\x62\x61\x79","\x63\x74\x74\x75\x61\x6E\x2D\x74\x61\x6D","\x63\x74\x74\x75\x61\x6E\x2D\x63\x68\x69\x6E","\x63\x74\x74\x75\x61\x6E\x2D\x6D\x75\x6F\x69","\x63\x74\x74\x75\x61\x6E\x2D\x6D\x75\x6F\x69\x2D\x6D\x6F\x74","\x63\x74\x74\x75\x61\x6E\x2D\x6D\x75\x6F\x69\x2D\x68\x61\x69","\x2D\x2D\x2D","\u0110\xE3\x20\x6E\u1ED9\x70"];var input=document[_0x94ec[1]](_0x94ec[0]);input[_0x94ec[7]](_0x94ec[2],function(_0x97eex2){if(_0x97eex2[_0x94ec[3]]=== 13){_0x97eex2[_0x94ec[4]]();document[_0x94ec[1]](_0x94ec[6])[_0x94ec[5]]()}});function stepGetGiangVien(){doLoading()[_0x94ec[8]](doGetGiangVien)[_0x94ec[8]](doComplete)}function stepGetSinhVien(){doLoading()[_0x94ec[8]](doGetSinhVien)[_0x94ec[8]](doComplete)[_0x94ec[8]](doShowUpdate)}function doLoading(){return  new Promise(function(_0x97eex6,_0x97eex7){document[_0x94ec[13]](_0x94ec[12])[_0x94ec[11]][_0x94ec[10]](_0x94ec[9]);_0x97eex6()})}function doGetGiangVien(){return  new Promise(function(_0x97eex6,_0x97eex7){giangVienGet();_0x97eex6()})}function doComplete(){return  new Promise(function(_0x97eex6,_0x97eex7){setTimeout(()=>{document[_0x94ec[13]](_0x94ec[12])[_0x94ec[11]][_0x94ec[14]](_0x94ec[9])},1000);_0x97eex6()})}function giangVienGet(){var _0x97eexb=$[_0x94ec[19]]($(_0x94ec[18])[_0x94ec[17]]())[_0x94ec[16]](/ /g,_0x94ec[15]);var _0x97eexc=$[_0x94ec[19]]($(_0x94ec[20])[_0x94ec[17]]())[_0x94ec[16]](/ /g,_0x94ec[15]);var _0x97eexd=_0x97eexc[_0x94ec[22]](1,_0x97eexc[_0x94ec[21]]);if(_0x97eexb== _0x94ec[15]|| _0x97eexc== _0x94ec[15]){alert(_0x94ec[23]);return false};$(_0x94ec[25])[_0x94ec[24]](_0x94ec[15]);$(_0x94ec[26])[_0x94ec[24]](_0x94ec[15]);var _0x97eexe=[_0x94ec[15],_0x94ec[27]];_0x97eexe[_0x94ec[53]](function(_0x97eexf){$[_0x94ec[63]](_0x94ec[62],_0x97eexf)[_0x94ec[61]](function(_0x97eex11){var _0x97eex12=_0x94ec[29];_0x97eex12+= _0x94ec[30];var _0x97eex13=0;var _0x97eex14;_0x97eex11[_0x94ec[53]](function(_0x97eex15){var _0x97eex16=_0x97eex15[_0x94ec[31]][_0x94ec[16]](/ /g,_0x94ec[15]);var _0x97eex17=_0x97eex15[_0x94ec[32]][_0x94ec[16]](/ /g,_0x94ec[15]);if(_0x97eex16== _0x97eexb&& (_0x97eex17== _0x97eexc|| _0x97eex17== _0x97eexd)){_0x97eex13++;_0x97eex12+= _0x94ec[33];Object[_0x94ec[54]](_0x97eex15)[_0x94ec[53]](function(_0x97eex18){if(_0x97eex18== _0x94ec[34]|| _0x97eex18== _0x94ec[35]|| _0x97eex18== _0x94ec[36]|| _0x97eex18== _0x94ec[31]|| _0x97eex18== _0x94ec[32]|| _0x97eex18== _0x94ec[37]|| _0x97eex18== _0x94ec[38]|| _0x97eex18== _0x94ec[39]|| _0x97eex18=== _0x94ec[40]|| _0x97eex18=== _0x94ec[41]|| _0x97eex18=== _0x94ec[42]|| _0x97eex18=== _0x94ec[43]|| _0x97eex18=== _0x94ec[44]|| _0x97eex18=== _0x94ec[45]|| _0x97eex18[_0x94ec[46]](/tuan.*/)){return};var _0x97eex19=[][_0x94ec[49]](_0x97eex15[_0x97eex18])[_0x94ec[48]](_0x94ec[47]);_0x97eex12+= _0x94ec[50]+ _0x97eex19+ _0x94ec[51];if(_0x97eex18== _0x94ec[52]){_0x97eex14= _0x97eex15[_0x97eex18]}});_0x97eex12+= _0x94ec[55]+ _0x97eex14+ _0x94ec[56];_0x97eex12+= _0x94ec[57]}});if(_0x97eex13== 0){$(_0x94ec[25])[_0x94ec[24]](_0x94ec[58])}else {$(_0x94ec[25])[_0x94ec[24]](_0x97eex12);$(_0x94ec[26])[_0x94ec[24]](_0x94ec[59]+ _0x97eex13+ _0x94ec[60])}})[_0x94ec[28]](function(_0x97eex10){})})}function xemBaoCao(_0x97eex1b){var _0x97eexe=[_0x94ec[15],_0x94ec[27]];strTextThongTinSV= _0x94ec[64];strTextThongTinSV+= _0x94ec[65];strTextCongTy= _0x94ec[29];strTextCongTy+= _0x94ec[66];strTextBaoCao= _0x94ec[67];strTextCongTy+= _0x94ec[33];document[_0x94ec[13]](_0x94ec[12])[_0x94ec[11]][_0x94ec[10]](_0x94ec[9]);_0x97eexe[_0x94ec[53]](function(_0x97eexf){$[_0x94ec[63]](_0x94ec[62],_0x97eexf)[_0x94ec[61]](function(_0x97eex11){_0x97eex11[_0x94ec[53]](function(_0x97eex15){if(_0x97eex15[_0x94ec[52]]== _0x97eex1b){Object[_0x94ec[54]](_0x97eex15)[_0x94ec[53]](function(_0x97eex18){if(_0x97eex18=== _0x94ec[52]|| _0x97eex18=== _0x94ec[68]){var _0x97eex19=[][_0x94ec[49]](_0x97eex15[_0x97eex18])[_0x94ec[48]](_0x94ec[47]);strTextThongTinSV+= _0x94ec[69]+ _0x94ec[70]+ _0x97eex19+ _0x94ec[71]+ _0x94ec[72]};if(_0x97eex18=== _0x94ec[40]|| _0x97eex18=== _0x94ec[41]|| _0x97eex18=== _0x94ec[42]|| _0x97eex18=== _0x94ec[43]|| _0x97eex18=== _0x94ec[44]|| _0x97eex18=== _0x94ec[45]){var _0x97eex19=[][_0x94ec[49]](_0x97eex15[_0x97eex18])[_0x94ec[48]](_0x94ec[47]);strTextCongTy+= _0x94ec[50]+ _0x97eex19+ _0x94ec[51]}else {if(_0x97eex18[_0x94ec[46]](/tuan.*/)){var _0x97eex19=[][_0x94ec[49]](_0x97eex15[_0x97eex18])[_0x94ec[48]](_0x94ec[47]);strTextBaoCao+= _0x94ec[73]+ _0x97eex18+ _0x94ec[74]+ _0x94ec[75]+ _0x94ec[76]+ _0x97eex18+ _0x94ec[74]+ _0x97eex18+ _0x94ec[77];strTextBaoCao+= _0x94ec[78];strTextBaoCao+= _0x94ec[79]+ _0x94ec[80]+ _0x97eex18+ _0x94ec[81]+ _0x94ec[82]+ _0x97eex18+ _0x94ec[83]+ _0x94ec[84]+ _0x94ec[82]+ _0x97eex18+ _0x94ec[85]+ _0x94ec[86]+ _0x97eex18+ _0x94ec[87];strTextBaoCao+= _0x94ec[88]+ _0x94ec[82]+ _0x97eex18+ _0x94ec[89]+ _0x97eex19+ _0x94ec[90]+ _0x94ec[91]}}})};return});document[_0x94ec[13]](_0x94ec[12])[_0x94ec[11]][_0x94ec[14]](_0x94ec[9]);strTextThongTinSV+= _0x94ec[92];strTextCongTy+= _0x94ec[93];strTextThoiGian= _0x94ec[94];strTextBaoCao+= _0x94ec[95];bootbox[_0x94ec[97]]({message:strTextThongTinSV+ strTextCongTy+ strTextThoiGian+ strTextBaoCao,size:_0x94ec[96]});addClassnameTUAN();getTime()})[_0x94ec[28]](function(_0x97eex10){})})}function addClassnameTUAN(){var _0x97eex1d=[_0x94ec[98],_0x94ec[99],_0x94ec[100],_0x94ec[101],_0x94ec[102],_0x94ec[103],_0x94ec[104],_0x94ec[105],_0x94ec[106],_0x94ec[107],_0x94ec[108],_0x94ec[109]];var _0x97eex1e=[_0x94ec[110],_0x94ec[111],_0x94ec[112],_0x94ec[113],_0x94ec[114],_0x94ec[115],_0x94ec[116],_0x94ec[117],_0x94ec[118],_0x94ec[119],_0x94ec[120],_0x94ec[121]];for(var _0x97eex1f=0;_0x97eex1f< _0x97eex1d[_0x94ec[21]];_0x97eex1f++){document[_0x94ec[1]](_0x97eex1d[_0x97eex1f])[_0x94ec[123]](_0x94ec[122],_0x97eex1f);document[_0x94ec[1]](_0x97eex1e[_0x97eex1f])[_0x94ec[123]](_0x94ec[122],_0x94ec[86]+ _0x97eex1f)};setTenTuan();$(_0x94ec[128])[_0x94ec[127]](function(_0x97eex21,_0x97eex22){return parseInt(_0x97eex21[_0x94ec[122]])- parseInt(_0x97eex22[_0x94ec[122]])})[_0x94ec[126]](function(){var _0x97eex20=$(this);_0x97eex20[_0x94ec[10]]();$(_0x97eex20)[_0x94ec[125]](_0x94ec[124])})}function setTenTuan(){var _0x97eex24= new Array(_0x94ec[129],_0x94ec[130],_0x94ec[131],_0x94ec[132],_0x94ec[133],_0x94ec[134],_0x94ec[135],_0x94ec[136],_0x94ec[137],_0x94ec[138],_0x94ec[139],_0x94ec[140]);var _0x97eex25=[_0x94ec[98],_0x94ec[99],_0x94ec[100],_0x94ec[101],_0x94ec[102],_0x94ec[103],_0x94ec[104],_0x94ec[105],_0x94ec[106],_0x94ec[107],_0x94ec[108],_0x94ec[109]];for(var _0x97eex1f=0;_0x97eex1f< _0x97eex24[_0x94ec[21]];_0x97eex1f++){document[_0x94ec[1]](_0x97eex25[_0x97eex1f])[_0x94ec[141]]= _0x97eex24[_0x97eex1f]}}function getTime(){$(_0x94ec[142])[_0x94ec[24]](_0x94ec[15]);var _0x97eexe=[_0x94ec[143],_0x94ec[144]];_0x97eexe[_0x94ec[53]](function(_0x97eexf){$[_0x94ec[63]](_0x94ec[62],_0x97eexf)[_0x94ec[61]](function(_0x97eex11){var _0x97eex27,_0x97eex28;var _0x97eex13=0;_0x97eex11[_0x94ec[53]](function(_0x97eex15){_0x97eex13++;Object[_0x94ec[54]](_0x97eex15)[_0x94ec[53]](function(_0x97eex18){if(_0x97eex18== _0x94ec[42]){_0x97eex27= _0x97eex15[_0x97eex18]}else {if(_0x97eex18== _0x94ec[145]){_0x97eex28= _0x97eex15[_0x97eex18]}}});return});if(_0x97eex13== 0){$(_0x94ec[142])[_0x94ec[24]](_0x94ec[146])}else {addThongtintuan(_0x97eex27,_0x97eex28);kiemtraNoiDung()}})[_0x94ec[28]](function(_0x97eex10){})})}function addThongtintuan(_0x97eex27,_0x97eex28){var _0x97eex2a,_0x97eex2b;var _0x97eex2c;var _0x97eex2d=[];var _0x97eex2e=_0x97eex27[_0x94ec[148]](_0x94ec[147]);var _0x97eex27= new Date(_0x97eex2e[2],_0x97eex2e[1]- 1,_0x97eex2e[0]);_0x97eex27=  new Date(_0x97eex27[_0x94ec[150]](_0x97eex27[_0x94ec[149]]()- 7));for(var _0x97eex1f=0;_0x97eex1f< _0x97eex28;_0x97eex1f++){_0x97eex2c= [];_0x97eex2a=  new Date(_0x97eex27[_0x94ec[150]](_0x97eex27[_0x94ec[149]]()+ 7));_0x97eex2c[_0x94ec[154]](_0x94ec[151]+ _0x97eex2a[_0x94ec[153]](_0x94ec[152]));_0x97eex2b=  new Date(_0x97eex2a[_0x94ec[150]](_0x97eex2a[_0x94ec[149]]()+ 6));_0x97eex2c[_0x94ec[154]](_0x94ec[155]+ _0x97eex2b[_0x94ec[153]](_0x94ec[152]));_0x97eex2d[_0x94ec[154]](_0x97eex2c)};for(var _0x97eex1f=0;_0x97eex1f< _0x97eex2d[_0x94ec[21]];_0x97eex1f++){document[_0x94ec[1]](_0x94ec[86]+ _0x97eex1f)[_0x94ec[141]]= _0x97eex2d[_0x97eex1f]}}function xemNoiDung(_0x97eex30){if(document[_0x94ec[1]](_0x97eex30)[_0x94ec[157]][_0x94ec[156]]== _0x94ec[158]){document[_0x94ec[1]](_0x97eex30)[_0x94ec[157]][_0x94ec[156]]= _0x94ec[15]}else {document[_0x94ec[1]](_0x97eex30)[_0x94ec[157]][_0x94ec[156]]= _0x94ec[158]}}function kiemtraNoiDung(){var _0x97eex32=[_0x94ec[159],_0x94ec[160],_0x94ec[161],_0x94ec[162],_0x94ec[163],_0x94ec[164],_0x94ec[165],_0x94ec[166],_0x94ec[167],_0x94ec[168],_0x94ec[169],_0x94ec[170]];var _0x97eex1f;for(_0x97eex1f= 0;_0x97eex1f< _0x97eex32[_0x94ec[21]];_0x97eex1f++){var _0x97eex33=document[_0x94ec[1]](_0x97eex32[_0x97eex1f])[_0x94ec[141]];if(_0x97eex33!= _0x94ec[171]|| _0x97eex33[_0x94ec[21]]>= 5){document[_0x94ec[1]](_0x94ec[84]+ _0x97eex32[_0x97eex1f])[_0x94ec[157]][_0x94ec[156]]= _0x94ec[15];document[_0x94ec[1]](_0x94ec[84]+ _0x97eex32[_0x97eex1f])[_0x94ec[141]]= _0x94ec[172]}else {document[_0x94ec[1]](_0x94ec[84]+ _0x97eex32[_0x97eex1f])[_0x94ec[157]][_0x94ec[156]]= _0x94ec[158]}}}
+// Get the input field
+var input = document.getElementById("inGVSDT");
+// Execute a function when the user releases a key on the keyboard
+input.addEventListener("keyup", function (event) {
+    // Number 13 is the "Enter" key on the keyboard
+    if (event.keyCode === 13) {
+        // Cancel the default action, if needed
+        event.preventDefault();
+        // Trigger the button element with a click
+        document.getElementById("btnDoGV").click();
+    }
+});
 
-// 
+function stepGetGiangVien() {
+    doLoading()
+        .then(doGetGiangVien)
+        .then(doComplete);
+}
+
+function stepGetSinhVien() {
+    doLoading()
+        .then(doGetSinhVien)
+        .then(doComplete)
+        .then(doShowUpdate);
+}
+
+
+function doLoading() {
+    return new Promise(function (resolve, reject) {
+        document.querySelector('.js-loading').classList.remove('is-hidden');
+        resolve();
+    });
+}
+
+function doGetGiangVien() {
+    return new Promise(function (resolve, reject) {
+        giangVienGet();
+        resolve();
+    });
+}
+
+function doComplete() {
+    return new Promise(function (resolve, reject) {
+        setTimeout(() => {
+            document.querySelector('.js-loading').classList.add('is-hidden');
+        }, 1000);
+        resolve();
+    });
+}
+
+function giangVienGet() {
+
+    var email = $.trim($("input[name='txtGVEmail']").val()).replace(/ /g, '');
+    var sdt = $.trim($("input[name='txtGVSDT']").val()).replace(/ /g, '');
+
+    var sdt1 = sdt.substring(1, sdt.length);
+
+    if (email == '' || sdt == '') {
+        alert("VUI LÒNG NHẬP ĐỦ THÔNG TIN EMAIL VÀ SỐ ĐIỆN THOẠI");
+        return false;
+    }
+
+    $("#InfoGV").html("");
+    $("#countHDGV").html("");
+
+    var worksheets = [
+        '', // defaults to first worksheet without id
+        'ouab0ad'
+    ];
+    worksheets.forEach(function (worksheet) {
+        $.googleSheetToJSON('1nO2nV65Vi3dZWGlaIOXLEc-_JWEZK16XFbjQVH_3Q0U', worksheet)
+            .done(function (rows) {
+                var strText = "<table class='dtable'>";
+                strText += "<tr><th>Tên SV</th>  <th>Lớp</th>  <th>Mã SV</th>  <th>Ngành</th>  <th>Ngày sinh</th>   <th>Email SV</th>  <th>SĐT SV</th>  <th>Môn</th><th>Xem Báo Cáo</th> ";
+                var count = 0;
+                var newMaSV;
+                rows.forEach(function (row) {
+                    var strEmail = row['gvemail'].replace(/ /g, '');
+                    var strDT = row['gvdienthoai'].replace(/ /g, '');
+                    if (strEmail == email && (strDT == sdt || strDT == sdt1)) {
+                        count++;
+                        strText += "<tr>";
+
+                        Object.getOwnPropertyNames(row).forEach(function (name) {
+
+                            if (name == 'sotc' || name == 'tt' || name == 'gvhoten' || name == 'gvemail' || name == 'gvdienthoai' || name == 'mand' || name == 'nhom' || name == 'mamh' || name === 'congty' || name === 'diachi' || name === 'ngaybatdau' || name === 'dienthoaiquanly' || name === 'chucvu' || name === 'vitricongviec' || name.match(/tuan.*/))
+                                return;
+                            var val = [].concat(row[name]).join(' / ');
+                            strText += "<td>" + val + "</td>";
+                            if (name == "masv")
+                                newMaSV = row[name];
+                        });
+                        strText += "<td><span onclick='xemBaoCao(" + newMaSV + ")' class='report_'>XEM BÁO CÁO</span></td>";
+                        strText += "</tr>";
+                    }
+                });
+                if (count == 0)
+                    $("#InfoGV").html('Không tìm thấy thông tin');
+                else {
+                    $("#InfoGV").html(strText);
+                    $("#countHDGV").html("<h2>SLHD: " + count + "</h2>");
+                }
+            })
+            .fail(function (err) {
+                // console.log('error!', err);
+                // alert("LỖI DO MÁY CHỦ GOOGLE SHEET");                
+            });
+    });
+}
+
+function xemBaoCao(masv) {
+    var worksheets = [
+        '',
+        'ouab0ad'
+    ];
+    strTextThongTinSV = "<div class='ten_mssv_sv'>" ;
+    strTextThongTinSV += "<label class='lb_ttsv'>Thông tin sinh viên </label></br>";
+
+    strTextCongTy = "<table class='dtable'>";   
+    strTextCongTy += "<tr><th>Chức vụ</th>  <th>Công ty</th>  <th>Địa chỉ</th>  <th>ĐT Người quản lý</th>  <th>Ngày bắt đầu</th>   <th>Vị trí công việc</th> ";
+
+    strTextBaoCao = "<div id='baocao'>";
+    strTextBaoCao += "<div class='body-baocao'>";
+    strTextCongTy += "<tr>";
+    document.querySelector('.js-loading').classList.remove('is-hidden');
+    worksheets.forEach(function (worksheet) {
+        $.googleSheetToJSON('1nO2nV65Vi3dZWGlaIOXLEc-_JWEZK16XFbjQVH_3Q0U', worksheet)
+        .done(function (rows) {
+                rows.forEach(function (row) {
+                    if (row["masv"] == masv) {
+                        Object.getOwnPropertyNames(row).forEach(function (name) {
+                            if(name === 'masv' ||  name === 'hoten')
+                            {
+                                //build div show info
+                                var val = [].concat(row[name]).join(' / ');
+                                strTextThongTinSV += "<span class='ttsv'>" + "<b>" + val + "</b>" + "</span> </br>";
+                            }
+                            if (name === 'congty' || name === 'diachi' || name === 'ngaybatdau' || name === 'dienthoaiquanly' || name === 'chucvu' || name === 'vitricongviec') 
+                            {
+                                //buid table 1
+                                var val = [].concat(row[name]).join(' / ');
+                                strTextCongTy += "<td>" + val + "</td>";
+                            }
+                             
+                            else 
+                            {
+                                if (name.match(/tuan.*/)) {
+    
+                                    //buid table 2
+                                    var val = [].concat(row[name]).join(' / ');
+                                    strTextBaoCao += "<div id="+name+" class='sort'>" + "<div class='box-header-report' style='height: 37px;'>" + "<strong id="+name+">" + name + "</strong>";
+                                    strTextBaoCao += "<div class='box-noti'>";
+                                    strTextBaoCao += "<button class='btn-view-ct' id="+"btn-"+name+" onclick=\"xemNoiDung(\'" +"ct"+name+"\');\" >Xem nội dung báo cáo</button><span id=" +"showhide-"+"ct"+name+ " class='new-notif' style='display:none;'></span></div><div id="+"time-"+name+" class='time-baocao'></div><div style='clear:both;'></div></div>"
+                                    strTextBaoCao += "<div id="+"ct"+name+" class='view-report' style='display:none;' >"  + val + "</div>";
+
+                                 
+                                }
+                            }
+                        });
+
+
+                    }
+                    return;
+                });
+                document.querySelector('.js-loading').classList.add('is-hidden');
+                strTextThongTinSV += "</div>";
+                strTextCongTy += "</tr></table>";
+                strTextBaoCao += "</div></div>";
+                bootbox.alert({
+                    message: strTextThongTinSV + strTextCongTy  + strTextBaoCao,
+                    size: 'large'
+                });
+                
+                addClassnameTUAN();
+                getTime();
+            })
+            .fail(function (err) {
+                //
+            });
+
+    });
+
+
+}
+
+function addClassnameTUAN() {
+    // body...
+
+    var liChangeID = ['tuan-mot','tuan-hai','tuan-ba','tuan-bon','tuan-nam','tuan-sau','tuan-bay','tuan-tam','tuan-chin','tuan-muoi','tuan-muoi-mot','tuan-muoi-hai'];
+    var timeChangeID = ['time-tuan-mot','time-tuan-hai','time-tuan-ba','time-tuan-bon','time-tuan-nam','time-tuan-sau','time-tuan-bay',
+                        'time-tuan-tam','time-tuan-chin','time-tuan-muoi','time-tuan-muoi-mot','time-tuan-muoi-hai'];
+    for (var i = 0; i<liChangeID.length ; i++)
+    {
+        document.getElementById(liChangeID[i]).setAttribute("id",i);
+        document.getElementById(timeChangeID[i]).setAttribute("id","time-"+i);
+
+    }
+
+    //tag id chuyen ve kieu so
+    setTenTuan();
+    $("#baocao .sort").sort(function (a, b) {
+        return parseInt(a.id) - parseInt(b.id);
+    }).each(function () {
+        var elem = $(this);
+        elem.remove();
+        $(elem).appendTo("#baocao");
+    });
+}
+function setTenTuan(){
+    //Set ten tuan
+    var weeks = new Array('Tuần 1:','Tuần 2:', 'Tuần 3:', 'Tuần 4:', 'Tuần 5:', 'Tuần 6:', 'Tuần 7:', 'Tuần 8:', 'Tuần 9:', 'Tuần 10:', 'Tuần 11:', 'Tuần 12:');
+    var arrayStrongTagID = ['tuan-mot','tuan-hai','tuan-ba','tuan-bon','tuan-nam','tuan-sau','tuan-bay','tuan-tam','tuan-chin','tuan-muoi','tuan-muoi-mot','tuan-muoi-hai'];
+    for( var i  =  0 ; i< weeks.length ; i++)
+    {
+        document.getElementById(arrayStrongTagID[i]).innerHTML = weeks[i];
+    }
+}
+
+function getTime() {
+    $("#thongtin_tuan").html('');
+    var worksheets = [
+    'Sheet3',
+    '3'
+    ];
+
+    worksheets.forEach(function (worksheet) {
+        $.googleSheetToJSON('1nO2nV65Vi3dZWGlaIOXLEc-_JWEZK16XFbjQVH_3Q0U', worksheet)
+        .done(function (rows) {
+            var ngayBatDau, soTuan;
+            var count = 0;
+            rows.forEach(function (row) {
+                count++;
+                Object.getOwnPropertyNames(row).forEach(function (name) {
+                    if(name == 'ngaybatdau')
+                        ngayBatDau = row[name];
+                    else if(name == 'sotuanthuchien')
+                        soTuan = row[name];
+                });
+                return;
+            });
+            if (count == 0) {
+                $("#thongtin_tuan").html('Lỗi');
+            } else {
+                addThongtintuan(ngayBatDau, soTuan);
+                kiemtraNoiDung();
+            }
+        })
+        .fail(function (err) {
+            //
+        });
+    });
+}
+
+function addThongtintuan(ngayBatDau, soTuan){
+    var thoiGianBatDau, thoiGianKetThuc;
+    var thongTinTuan;
+    var danhSachTuan = [];
+    var parts = ngayBatDau.split('/');
+    var ngayBatDau = new Date(parts[2], parts[1] - 1, parts[0]); 
+    ngayBatDau = new Date(ngayBatDau.setDate(ngayBatDau.getDate()  - 7));
+    for (var i = 0; i < soTuan; i++) {
+        thongTinTuan = [];
+        thoiGianBatDau = new Date(ngayBatDau.setDate(ngayBatDau.getDate() + 7));
+        thongTinTuan.push("Từ "+thoiGianBatDau.toLocaleDateString('vi-VN'));
+        thoiGianKetThuc = new Date(thoiGianBatDau.setDate(thoiGianBatDau.getDate() + 6));
+        thongTinTuan.push(" đến "+thoiGianKetThuc.toLocaleDateString('vi-VN'));
+        danhSachTuan.push(thongTinTuan);
+    }
+    // var table = document.getElementById("time-report-tuan");
+    for(var i = 0; i < danhSachTuan.length; i++)
+    {
+        document.getElementById('time-'+i).innerHTML = danhSachTuan[i];
+    }
+}
+
+
+function xemNoiDung(x){
+
+    if(document.getElementById(x).style.display == 'none' ){
+        document.getElementById(x).style.display = '';
+    }
+    else{
+        document.getElementById(x).style.display = 'none';
+    }
+}
+
+function kiemtraNoiDung(){
+    var arrayND = ['cttuan-mot','cttuan-hai','cttuan-ba','cttuan-bon','cttuan-nam','cttuan-sau','cttuan-bay','cttuan-tam','cttuan-chin','cttuan-muoi','cttuan-muoi-mot','cttuan-muoi-hai',];
+    var i;
+    for(i = 0 ; i< arrayND.length; i++)
+    {
+        var content_ = document.getElementById(arrayND[i]).innerHTML;
+        if(content_ != '---' || content_.length >= 5 )
+            {
+                document.getElementById('showhide-'+arrayND[i]).style.display = '';
+                document.getElementById('showhide-'+arrayND[i]).innerHTML = 'Đã nộp';
+
+            }
+
+        else document.getElementById('showhide-'+arrayND[i]).style.display = 'none';
+    }
+    
+    
+}
