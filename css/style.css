@@ -248,9 +248,11 @@ ul#baocao {
 
 /* style header thông tin sinh viên */
 .ten_mssv_sv {
-  border: 1px dotted;
+  border: 1px solid lightblue;
   margin: 10px auto;
   padding: 14px 16px;
+  border-left: 4px solid lightblue;
+  box-shadow: 4.3px 4.3px 1px lightblue;
 }
 label.lb_ttsv {
   padding-right: 16px;
@@ -374,7 +376,7 @@ span.ttsv b {
       }
 
     }
-    div#baocao {
+    #baocao {
       border: 1px solid lightgrey;
       padding: 10px 0 10px 13px;
   }
