@@ -1,1 +1,313 @@
-var _0x4bf7=['time-','\x20class=\x27time-baocao\x27></div><div\x20style=\x27clear:both;\x27></div></div>','\x20class=\x27view-report\x27\x20style=\x27display:none;\x27\x20>','</div>','add','</tr></table>','</div></div>','large','tuan-mot','tuan-hai','tuan-nam','tuan-sau','tuan-bay','tuan-tam','tuan-muoi','tuan-muoi-mot','time-tuan-mot','time-tuan-hai','time-tuan-ba','time-tuan-bon','time-tuan-nam','time-tuan-sau','time-tuan-bay','time-tuan-tam','time-tuan-chin','time-tuan-muoi','time-tuan-muoi-mot','time-tuan-muoi-hai','setAttribute','sort','each','appendTo','#baocao','Tuần\x201:','Tuần\x202:','Tuần\x205:','Tuần\x206:','Tuần\x207:','Tuần\x208:','Tuần\x209:','Tuần\x2010:','Tuần\x2011:','Tuần\x2012:','tuan-bon','tuan-chin','#thongtin_tuan','Sheet3','sotuanthuchien','Lỗi','setDate','getDate','push','Từ\x20','toLocaleDateString','vi-VN','innerHTML','style','display','none','cttuan-mot','cttuan-ba','cttuan-nam','cttuan-sau','cttuan-bay','cttuan-tam','cttuan-chin','cttuan-muoi','cttuan-muoi-hai','---','Đã\x20nộp','getElementById','inGVSDT','addEventListener','keyup','keyCode','preventDefault','click','then','querySelector','.js-loading','classList','remove','is-hidden','trim','input[name=\x27txtGVEmail\x27]','val','replace','input[name=\x27txtGVSDT\x27]','length','VUI\x20LÒNG\x20NHẬP\x20ĐỦ\x20THÔNG\x20TIN\x20EMAIL\x20VÀ\x20SỐ\x20ĐIỆN\x20THOẠI','#InfoGV','html','#countHDGV','ouab0ad','forEach','1nO2nV65Vi3dZWGlaIOXLEc-_JWEZK16XFbjQVH_3Q0U','done','<table\x20class=\x27dtable\x27>','gvemail','gvdienthoai','<tr>','getOwnPropertyNames','sotc','gvhoten','mand','nhom','mamh','congty','website','ngaydukienketthuc','hotennguoiquanli','dienthoaiquanly','emailnguoiquanli','chucvu','vitricongviec','match','\x20/\x20','<td>','</td>','masv','<td><span\x20onclick=\x27xemBaoCao(',')\x27\x20class=\x27report_\x27>XEM\x20BÁO\x20CÁO</span></td>','</tr>','Không\x20tìm\x20thấy\x20thông\x20tin','<h2>SLHD:\x20','</h2>','fail','<div\x20class=\x27ten_mssv_sv\x27>','<label\x20class=\x27lb_ttsv\x27>Thông\x20tin\x20sinh\x20viên\x20</label></br>','<tr><th>Chức\x20vụ</th>\x20\x20<th>Công\x20ty</th>\x20\x20<th>Điện\x20thoại\x20QL</th>\x20<th>Email\x20người\x20QL</th>\x20<th>Họ\x20tên\x20quản\x20lý</th>\x20<th>Ngày\x20bắt\x20đầu</th>\x20\x20<th>Ngày\x20dự\x20kiến\x20kết\x20thúc</th>\x20\x20\x20\x20\x20<th>Vị\x20trí\x20công\x20việc</th>\x20<th>Website</th>\x20','<div\x20id=\x27baocao\x27>','<div\x20class=\x27body-baocao\x27>','googleSheetToJSON','concat','join','<span\x20class=\x27ttsv\x27>','<b>','</b>','</span>\x20</br>','ngaybatdau','<div\x20id=','\x20class=\x27sort\x27>','<div\x20class=\x27box-header-report\x27\x20style=\x27height:\x2037px;\x27>','<button\x20class=\x27btn-view-ct\x27\x20id=','btn-','\x20onclick=\x22xemNoiDung(\x27','\x27);\x22\x20>Xem\x20nội\x20dung\x20báo\x20cáo</button><span\x20id=','showhide-','\x20class=\x27new-notif\x27\x20style=\x27display:none;\x27></span></div><div\x20id='];(function(_0x3babb2,_0x51cbb6){var _0x20a1c8=function(_0x468e93){while(--_0x468e93){_0x3babb2['push'](_0x3babb2['shift']());}};_0x20a1c8(++_0x51cbb6);}(_0x4bf7,0x170));var _0x34de=function(_0x27c379,_0x3b013d){_0x27c379=_0x27c379-0x0;var _0xc89f4b=_0x4bf7[_0x27c379];return _0xc89f4b;};var input=document[_0x34de('0x0')](_0x34de('0x1'));input[_0x34de('0x2')](_0x34de('0x3'),function(_0xb06605){if(_0xb06605[_0x34de('0x4')]===0xd){_0xb06605[_0x34de('0x5')]();document[_0x34de('0x0')]('btnDoGV')[_0x34de('0x6')]();}});function stepGetGiangVien(){doLoading()[_0x34de('0x7')](doGetGiangVien)[_0x34de('0x7')](doComplete);}function stepGetSinhVien(){doLoading()[_0x34de('0x7')](doGetSinhVien)[_0x34de('0x7')](doComplete)[_0x34de('0x7')](doShowUpdate);}function doLoading(){return new Promise(function(_0x4d56f7,_0x522295){document[_0x34de('0x8')](_0x34de('0x9'))[_0x34de('0xa')][_0x34de('0xb')](_0x34de('0xc'));_0x4d56f7();});}function doGetGiangVien(){return new Promise(function(_0x46aed2,_0x53d7c9){giangVienGet();_0x46aed2();});}function doComplete(){return new Promise(function(_0x3d5b7a,_0x228d9e){setTimeout(()=>{document[_0x34de('0x8')]('.js-loading')[_0x34de('0xa')]['add']('is-hidden');},0x3e8);_0x3d5b7a();});}function giangVienGet(){var _0x4873d7=$[_0x34de('0xd')]($(_0x34de('0xe'))[_0x34de('0xf')]())[_0x34de('0x10')](/ /g,'');var _0x4b1c39=$[_0x34de('0xd')]($(_0x34de('0x11'))['val']())[_0x34de('0x10')](/ /g,'');var _0x1d0f2e=_0x4b1c39['substring'](0x1,_0x4b1c39[_0x34de('0x12')]);if(_0x4873d7==''||_0x4b1c39==''){alert(_0x34de('0x13'));return![];}$(_0x34de('0x14'))[_0x34de('0x15')]('');$(_0x34de('0x16'))[_0x34de('0x15')]('');var _0x3c414c=['',_0x34de('0x17')];_0x3c414c[_0x34de('0x18')](function(_0xab4402){$['googleSheetToJSON'](_0x34de('0x19'),_0xab4402)[_0x34de('0x1a')](function(_0x143361){var _0x1af9f8=_0x34de('0x1b');_0x1af9f8+='<tr><th>Tên\x20SV</th>\x20\x20<th>Lớp</th>\x20\x20<th>Mã\x20SV</th>\x20\x20<th>Ngành</th>\x20\x20<th>Ngày\x20sinh</th>\x20\x20\x20<th>Email\x20SV</th>\x20\x20<th>SĐT\x20SV</th>\x20\x20<th>Môn</th><th>Xem\x20Báo\x20Cáo</th>\x20';var _0x120378=0x0;var _0x37ee82;_0x143361[_0x34de('0x18')](function(_0x377ec6){var _0x1bbe42=_0x377ec6[_0x34de('0x1c')];var _0x8a2738=_0x377ec6[_0x34de('0x1d')];if(_0x1bbe42==_0x4873d7&&(_0x8a2738==_0x4b1c39||_0x8a2738==_0x1d0f2e)){_0x120378++;_0x1af9f8+=_0x34de('0x1e');Object[_0x34de('0x1f')](_0x377ec6)[_0x34de('0x18')](function(_0x4e851d){if(_0x4e851d==_0x34de('0x20')||_0x4e851d=='tt'||_0x4e851d==_0x34de('0x21')||_0x4e851d==_0x34de('0x1c')||_0x4e851d==_0x34de('0x1d')||_0x4e851d==_0x34de('0x22')||_0x4e851d==_0x34de('0x23')||_0x4e851d==_0x34de('0x24')||_0x4e851d===_0x34de('0x25')||_0x4e851d===_0x34de('0x26')||_0x4e851d==='ngaybatdau'||_0x4e851d===_0x34de('0x27')||_0x4e851d===_0x34de('0x28')||_0x4e851d===_0x34de('0x29')||_0x4e851d===_0x34de('0x2a')||_0x4e851d===_0x34de('0x2b')||_0x4e851d===_0x34de('0x2c')||_0x4e851d[_0x34de('0x2d')](/tuan.*/))return;var _0x1fc0c7=[]['concat'](_0x377ec6[_0x4e851d])['join'](_0x34de('0x2e'));_0x1af9f8+=_0x34de('0x2f')+_0x1fc0c7+_0x34de('0x30');if(_0x4e851d==_0x34de('0x31'))_0x37ee82=_0x377ec6[_0x4e851d];});_0x1af9f8+=_0x34de('0x32')+_0x37ee82+_0x34de('0x33');_0x1af9f8+=_0x34de('0x34');}});if(_0x120378==0x0)$(_0x34de('0x14'))['html'](_0x34de('0x35'));else{$(_0x34de('0x14'))[_0x34de('0x15')](_0x1af9f8);$(_0x34de('0x16'))[_0x34de('0x15')](_0x34de('0x36')+_0x120378+_0x34de('0x37'));}})[_0x34de('0x38')](function(_0x2d9782){});});}function xemBaoCao(_0x33464d){var _0x5b9c1f=['','ouab0ad'];strTextThongTinSV=_0x34de('0x39');strTextThongTinSV+=_0x34de('0x3a');strTextCongTy=_0x34de('0x1b');strTextCongTy+=_0x34de('0x3b');strTextBaoCao=_0x34de('0x3c');strTextBaoCao+=_0x34de('0x3d');strTextCongTy+='<tr>';document[_0x34de('0x8')](_0x34de('0x9'))[_0x34de('0xa')][_0x34de('0xb')]('is-hidden');_0x5b9c1f[_0x34de('0x18')](function(_0x560c80){$[_0x34de('0x3e')]('1nO2nV65Vi3dZWGlaIOXLEc-_JWEZK16XFbjQVH_3Q0U',_0x560c80)[_0x34de('0x1a')](function(_0x22ff2d){_0x22ff2d[_0x34de('0x18')](function(_0xde80f0){if(_0xde80f0[_0x34de('0x31')]==_0x33464d){Object['getOwnPropertyNames'](_0xde80f0)[_0x34de('0x18')](function(_0x18f3f9){if(_0x18f3f9===_0x34de('0x31')||_0x18f3f9==='hoten'){var _0x582b83=[][_0x34de('0x3f')](_0xde80f0[_0x18f3f9])[_0x34de('0x40')](_0x34de('0x2e'));strTextThongTinSV+=_0x34de('0x41')+_0x34de('0x42')+_0x582b83+_0x34de('0x43')+_0x34de('0x44');}if(_0x18f3f9===_0x34de('0x25')||_0x18f3f9===_0x34de('0x26')||_0x18f3f9===_0x34de('0x45')||_0x18f3f9===_0x34de('0x27')||_0x18f3f9===_0x34de('0x28')||_0x18f3f9===_0x34de('0x29')||_0x18f3f9===_0x34de('0x2b')||_0x18f3f9===_0x34de('0x2a')||_0x18f3f9===_0x34de('0x2c')){var _0x582b83=[][_0x34de('0x3f')](_0xde80f0[_0x18f3f9])[_0x34de('0x40')](_0x34de('0x2e'));strTextCongTy+=_0x34de('0x2f')+_0x582b83+_0x34de('0x30');}else{if(_0x18f3f9[_0x34de('0x2d')](/tuan.*/)){var _0x582b83=[]['concat'](_0xde80f0[_0x18f3f9])[_0x34de('0x40')](_0x34de('0x2e'));strTextBaoCao+=_0x34de('0x46')+_0x18f3f9+_0x34de('0x47')+_0x34de('0x48')+'<strong\x20id='+_0x18f3f9+'>'+_0x18f3f9+'</strong>';strTextBaoCao+='<div\x20class=\x27box-noti\x27>';strTextBaoCao+=_0x34de('0x49')+_0x34de('0x4a')+_0x18f3f9+_0x34de('0x4b')+'ct'+_0x18f3f9+_0x34de('0x4c')+_0x34de('0x4d')+'ct'+_0x18f3f9+_0x34de('0x4e')+_0x34de('0x4f')+_0x18f3f9+_0x34de('0x50');strTextBaoCao+=_0x34de('0x46')+'ct'+_0x18f3f9+_0x34de('0x51')+_0x582b83+_0x34de('0x52');}}});}return;});document[_0x34de('0x8')](_0x34de('0x9'))[_0x34de('0xa')][_0x34de('0x53')](_0x34de('0xc'));strTextThongTinSV+='</div>';strTextCongTy+=_0x34de('0x54');strTextBaoCao+=_0x34de('0x55');bootbox['alert']({'message':strTextThongTinSV+strTextCongTy+strTextBaoCao,'size':_0x34de('0x56')});addClassnameTUAN();getTime();})[_0x34de('0x38')](function(_0x36a4ef){});});}function addClassnameTUAN(){var _0x2a924b=[_0x34de('0x57'),_0x34de('0x58'),'tuan-ba','tuan-bon',_0x34de('0x59'),_0x34de('0x5a'),_0x34de('0x5b'),_0x34de('0x5c'),'tuan-chin',_0x34de('0x5d'),_0x34de('0x5e'),'tuan-muoi-hai'];var _0x526eee=[_0x34de('0x5f'),_0x34de('0x60'),_0x34de('0x61'),_0x34de('0x62'),_0x34de('0x63'),_0x34de('0x64'),_0x34de('0x65'),_0x34de('0x66'),_0x34de('0x67'),_0x34de('0x68'),_0x34de('0x69'),_0x34de('0x6a')];for(var _0x3c535f=0x0;_0x3c535f<_0x2a924b[_0x34de('0x12')];_0x3c535f++){document[_0x34de('0x0')](_0x2a924b[_0x3c535f])[_0x34de('0x6b')]('id',_0x3c535f);document['getElementById'](_0x526eee[_0x3c535f])['setAttribute']('id',_0x34de('0x4f')+_0x3c535f);}setTenTuan();$('#baocao\x20.sort')[_0x34de('0x6c')](function(_0x385cfa,_0x28e2a6){return parseInt(_0x385cfa['id'])-parseInt(_0x28e2a6['id']);})[_0x34de('0x6d')](function(){var _0x55d059=$(this);_0x55d059[_0x34de('0xb')]();$(_0x55d059)[_0x34de('0x6e')](_0x34de('0x6f'));});}function setTenTuan(){var _0x402a06=new Array(_0x34de('0x70'),_0x34de('0x71'),'Tuần\x203:','Tuần\x204:',_0x34de('0x72'),_0x34de('0x73'),_0x34de('0x74'),_0x34de('0x75'),_0x34de('0x76'),_0x34de('0x77'),_0x34de('0x78'),_0x34de('0x79'));var _0x403e86=[_0x34de('0x57'),_0x34de('0x58'),'tuan-ba',_0x34de('0x7a'),_0x34de('0x59'),_0x34de('0x5a'),_0x34de('0x5b'),_0x34de('0x5c'),_0x34de('0x7b'),_0x34de('0x5d'),_0x34de('0x5e'),'tuan-muoi-hai'];for(var _0x573d09=0x0;_0x573d09<_0x402a06[_0x34de('0x12')];_0x573d09++){document[_0x34de('0x0')](_0x403e86[_0x573d09])['innerHTML']=_0x402a06[_0x573d09];}}function getTime(){$(_0x34de('0x7c'))[_0x34de('0x15')]('');var _0x18ff79=[_0x34de('0x7d'),'3'];_0x18ff79[_0x34de('0x18')](function(_0x21fc8b){$[_0x34de('0x3e')]('1nO2nV65Vi3dZWGlaIOXLEc-_JWEZK16XFbjQVH_3Q0U',_0x21fc8b)['done'](function(_0x389337){var _0x141e7e,_0xfc0584;var _0x311976=0x0;_0x389337[_0x34de('0x18')](function(_0x4ae64e){_0x311976++;Object[_0x34de('0x1f')](_0x4ae64e)[_0x34de('0x18')](function(_0x355a59){if(_0x355a59==_0x34de('0x45'))_0x141e7e=_0x4ae64e[_0x355a59];else if(_0x355a59==_0x34de('0x7e'))_0xfc0584=_0x4ae64e[_0x355a59];});return;});if(_0x311976==0x0){$(_0x34de('0x7c'))[_0x34de('0x15')](_0x34de('0x7f'));}else{addThongtintuan(_0x141e7e,_0xfc0584);kiemtraNoiDung();}})[_0x34de('0x38')](function(_0xa83905){});});}function addThongtintuan(_0x3c67b6,_0x53a9b1){var _0x3b5b74,_0x522d56;var _0x2ae9b9;var _0x173c82=[];var _0x2513ce=_0x3c67b6['split']('/');var _0x3c67b6=new Date(_0x2513ce[0x2],_0x2513ce[0x1]-0x1,_0x2513ce[0x0]);_0x3c67b6=new Date(_0x3c67b6[_0x34de('0x80')](_0x3c67b6[_0x34de('0x81')]()-0x7));for(var _0x4b27e6=0x0;_0x4b27e6<_0x53a9b1;_0x4b27e6++){_0x2ae9b9=[];_0x3b5b74=new Date(_0x3c67b6[_0x34de('0x80')](_0x3c67b6[_0x34de('0x81')]()+0x7));_0x2ae9b9[_0x34de('0x82')](_0x34de('0x83')+_0x3b5b74[_0x34de('0x84')](_0x34de('0x85')));_0x522d56=new Date(_0x3b5b74['setDate'](_0x3b5b74[_0x34de('0x81')]()+0x6));_0x2ae9b9[_0x34de('0x82')]('\x20đến\x20'+_0x522d56[_0x34de('0x84')](_0x34de('0x85')));_0x173c82[_0x34de('0x82')](_0x2ae9b9);}for(var _0x4b27e6=0x0;_0x4b27e6<_0x173c82[_0x34de('0x12')];_0x4b27e6++){document[_0x34de('0x0')](_0x34de('0x4f')+_0x4b27e6)[_0x34de('0x86')]=_0x173c82[_0x4b27e6];}}function xemNoiDung(_0x1ae1a4){if(document[_0x34de('0x0')](_0x1ae1a4)[_0x34de('0x87')][_0x34de('0x88')]==_0x34de('0x89')){document[_0x34de('0x0')](_0x1ae1a4)[_0x34de('0x87')]['display']='';}else{document[_0x34de('0x0')](_0x1ae1a4)[_0x34de('0x87')][_0x34de('0x88')]='none';}}function kiemtraNoiDung(){var _0x1ebbd2=[_0x34de('0x8a'),'cttuan-hai',_0x34de('0x8b'),'cttuan-bon',_0x34de('0x8c'),_0x34de('0x8d'),_0x34de('0x8e'),_0x34de('0x8f'),_0x34de('0x90'),_0x34de('0x91'),'cttuan-muoi-mot',_0x34de('0x92')];var _0xb8a449;for(_0xb8a449=0x0;_0xb8a449<_0x1ebbd2[_0x34de('0x12')];_0xb8a449++){var _0x198f58=document[_0x34de('0x0')](_0x1ebbd2[_0xb8a449])['innerHTML'];if(_0x198f58!=_0x34de('0x93')||_0x198f58[_0x34de('0x12')]>=0x5){document[_0x34de('0x0')](_0x34de('0x4d')+_0x1ebbd2[_0xb8a449])['style'][_0x34de('0x88')]='';document['getElementById'](_0x34de('0x4d')+_0x1ebbd2[_0xb8a449])[_0x34de('0x86')]=_0x34de('0x94');}else document[_0x34de('0x0')](_0x34de('0x4d')+_0x1ebbd2[_0xb8a449])[_0x34de('0x87')][_0x34de('0x88')]=_0x34de('0x89');}}
+// Get the input field
+var input = document.getElementById("inGVSDT");
+// Execute a function when the user releases a key on the keyboard
+input.addEventListener("keyup", function (event) {
+    // Number 13 is the "Enter" key on the keyboard
+    if (event.keyCode === 13) {
+        // Cancel the default action, if needed
+        event.preventDefault();
+        // Trigger the button element with a click
+        document.getElementById("btnDoGV").click();
+    }
+});
+
+function stepGetGiangVien() {
+    doLoading()
+        .then(doGetGiangVien)
+        .then(doComplete);
+}
+
+function stepGetSinhVien() {
+    doLoading()
+        .then(doGetSinhVien)
+        .then(doComplete)
+        .then(doShowUpdate);
+}
+
+
+function doLoading() {
+    return new Promise(function (resolve, reject) {
+        document.querySelector('.js-loading').classList.remove('is-hidden');
+        resolve();
+    });
+}
+
+function doGetGiangVien() {
+    return new Promise(function (resolve, reject) {
+        giangVienGet();
+        resolve();
+    });
+}
+
+function doComplete() {
+    return new Promise(function (resolve, reject) {
+        setTimeout(() => {
+            document.querySelector('.js-loading').classList.add('is-hidden');
+        }, 1000);
+        resolve();
+    });
+}
+
+function giangVienGet() {
+
+    var email = $.trim($("input[name='txtGVEmail']").val()).replace(/ /g, '');
+    var sdt = $.trim($("input[name='txtGVSDT']").val()).replace(/ /g, '');
+
+    var sdt1 = sdt.substring(1, sdt.length);
+
+    if (email == '' || sdt == '') {
+        alert("VUI LÒNG NHẬP ĐỦ THÔNG TIN EMAIL VÀ SỐ ĐIỆN THOẠI");
+        return false;
+    }
+
+    $("#InfoGV").html("");
+    $("#countHDGV").html("");
+
+    var worksheets = [
+        '', // defaults to first worksheet without id
+        'ouab0ad'
+    ];
+    worksheets.forEach(function (worksheet) {
+        $.googleSheetToJSON('1nO2nV65Vi3dZWGlaIOXLEc-_JWEZK16XFbjQVH_3Q0U', worksheet)
+            .done(function (rows) {
+                var strText = "<table class='dtable'>";
+                strText += "<tr><th>Tên SV</th>  <th>Lớp</th>  <th>Mã SV</th>  <th>Ngành</th>  <th>Ngày sinh</th>   <th>Email SV</th>  <th>SĐT SV</th>  <th>Môn</th><th>Xem Báo Cáo</th> ";
+                var count = 0;
+                var newMaSV;
+                rows.forEach(function (row) {
+                    var strEmail = row['gvemail'];
+                    var strDT = row['gvdienthoai'];
+                    if (strEmail == email && (strDT == sdt || strDT == sdt1)) {
+                        count++;
+                        strText += "<tr>";
+
+                        Object.getOwnPropertyNames(row).forEach(function (name) {
+
+                            if (name == 'sotc' || name == 'tt' || name == 'gvhoten' || name == 'gvemail' || name == 'gvdienthoai' || name == 'mand' || name == 'nhom' || name == 'mamh' || name === 'congty' || name === 'website' || name === 'ngaybatdau' || name === 'ngaydukienketthuc' || name === 'hotennguoiquanli' || name === 'dienthoaiquanly' || name === 'emailnguoiquanli' || name === 'chucvu' || name === 'vitricongviec' || name.match(/tuan.*/))
+                                return;
+                            var val = [].concat(row[name]).join(' / ');
+                            strText += "<td>" + val + "</td>";
+                            if (name == "masv")
+                                newMaSV = row[name];
+                        });
+                        strText += "<td><span onclick='xemBaoCao(" + newMaSV + ")' class='report_'>XEM BÁO CÁO</span></td>";
+                        strText += "</tr>";
+                    }
+                });
+                if (count == 0)
+                    $("#InfoGV").html('Không tìm thấy thông tin');
+                else {
+                    $("#InfoGV").html(strText);
+                    $("#countHDGV").html("<h2>SLHD: " + count + "</h2>");
+                }
+            })
+            .fail(function (err) {
+                // console.log('error!', err);
+                // alert("LỖI DO MÁY CHỦ GOOGLE SHEET");                
+            });
+    });
+}
+
+function xemBaoCao(masv) {
+    var worksheets = [
+        '',
+        'ouab0ad'
+    ];
+    strTextThongTinSV = "<div class='ten_mssv_sv'>" ;
+    strTextThongTinSV += "<label class='lb_ttsv'>Thông tin sinh viên </label></br>";
+
+    strTextCongTy = "<table class='dtable'>";   
+    strTextCongTy += "<tr><th>Chức vụ</th>  <th>Công ty</th>  <th>Điện thoại QL</th> <th>Email người QL</th> <th>Họ tên quản lý</th> <th>Ngày bắt đầu</th>  <th>Ngày dự kiến kết thúc</th>     <th>Vị trí công việc</th> <th>Website</th> ";
+
+    strTextBaoCao = "<div id='baocao'>";
+    strTextBaoCao += "<div class='body-baocao'>";
+    strTextCongTy += "<tr class='sx-NDCTY'>";
+    document.querySelector('.js-loading').classList.remove('is-hidden');
+    worksheets.forEach(function (worksheet) {
+        $.googleSheetToJSON('1nO2nV65Vi3dZWGlaIOXLEc-_JWEZK16XFbjQVH_3Q0U', worksheet)
+        .done(function (rows) {
+                rows.forEach(function (row) {
+                    if (row["masv"] == masv) {
+                        Object.getOwnPropertyNames(row).forEach(function (name) {
+                            if(name === 'masv' ||  name === 'hoten')
+                            {
+                                //build div show info
+                                var val = [].concat(row[name]).join(' / ');
+                                strTextThongTinSV += "<span class='ttsv'>" + "<b>" + val + "</b>" + "</span> </br>";
+                            }
+
+                            if (name === 'congty' || name === 'website' || name === 'ngaybatdau' || name === 'ngaydukienketthuc' || name === 'hotennguoiquanli' || name === 'dienthoaiquanly' || name === 'chucvu' || name === 'emailnguoiquanli' || name === 'vitricongviec') 
+                            {
+                                //buid table 1
+                                var val = [].concat(row[name]).join(' / ');
+                                if(val == '' || val.length < 1)
+                                    strTextCongTy += "<td>" + "Chưa cập nhập" + "</td>";
+                                strTextCongTy += "<td>" + val + "</td>";
+                            }
+                             
+                            else 
+                            {
+                                if (name.match(/tuan.*/)) {
+    
+                                    //buid table 2
+                                    var val = [].concat(row[name]).join(' / ');
+                                    strTextBaoCao += "<div id="+name+" class='sort'>" + "<div class='box-header-report' style='height: 37px;'>" + "<strong id="+name+">" + name + "</strong>";
+                                    strTextBaoCao += "<div class='box-noti'>";
+                                    strTextBaoCao += "<button class='btn-view-ct' id="+"btn-"+name+" onclick=\"xemNoiDung(\'" +"ct"+name+"\');\" >Xem nội dung báo cáo</button><span id=" +"showhide-"+"ct"+name+ " class='new-notif' style='display:none;'></span></div><div id="+"time-"+name+" class='time-baocao'></div><div style='clear:both;'></div></div>"
+                                    strTextBaoCao += "<div id="+"ct"+name+" class='view-report' style='display:none;' >"  + val + "</div>";
+
+                                 
+                                }
+                            }
+                        });
+
+
+                    }
+                    return;
+                });
+                document.querySelector('.js-loading').classList.add('is-hidden');
+                strTextThongTinSV += "</div>";
+                strTextCongTy += "</tr></table>";
+                strTextBaoCao += "</div></div>";
+                bootbox.alert({
+                    message: strTextThongTinSV + strTextCongTy  + strTextBaoCao,
+                    size: 'large'
+                });
+                
+                addClassnameTUAN();
+                getTime();
+            })
+            .fail(function (err) {
+                //
+            });
+
+    });
+
+
+}
+
+function addClassnameTUAN() {
+    // body...
+
+    var liChangeID = ['tuan-mot','tuan-hai','tuan-ba','tuan-bon','tuan-nam','tuan-sau','tuan-bay','tuan-tam','tuan-chin','tuan-muoi','tuan-muoi-mot','tuan-muoi-hai'];
+    var timeChangeID = ['time-tuan-mot','time-tuan-hai','time-tuan-ba','time-tuan-bon','time-tuan-nam','time-tuan-sau','time-tuan-bay',
+                        'time-tuan-tam','time-tuan-chin','time-tuan-muoi','time-tuan-muoi-mot','time-tuan-muoi-hai'];
+
+    for (var i = 0; i<liChangeID.length ; i++)
+    {
+        document.getElementById(liChangeID[i]).setAttribute("id",i);
+        document.getElementById(timeChangeID[i]).setAttribute("id","time-"+i);
+
+    }
+
+        
+
+    //tag id chuyen ve kieu so
+    setTenTuan();
+    $("#baocao .sort").sort(function (a, b) {
+        return parseInt(a.id) - parseInt(b.id);
+    }).each(function () {
+        var elem = $(this);
+        elem.remove();
+        $(elem).appendTo("#baocao");
+    });
+
+
+
+}
+function setTenTuan(){
+    //Set ten tuan
+    var weeks = new Array('Tuần 1:','Tuần 2:', 'Tuần 3:', 'Tuần 4:', 'Tuần 5:', 'Tuần 6:', 'Tuần 7:', 'Tuần 8:', 'Tuần 9:', 'Tuần 10:', 'Tuần 11:', 'Tuần 12:');
+    var arrayStrongTagID = ['tuan-mot','tuan-hai','tuan-ba','tuan-bon','tuan-nam','tuan-sau','tuan-bay','tuan-tam','tuan-chin','tuan-muoi','tuan-muoi-mot','tuan-muoi-hai'];
+    for( var i  =  0 ; i< weeks.length ; i++)
+    {
+        document.getElementById(arrayStrongTagID[i]).innerHTML = weeks[i];
+    }
+}
+
+function getTime() {
+    $("#thongtin_tuan").html('');
+    var worksheets = [
+    'Sheet3',
+    '3'
+    ];
+
+    worksheets.forEach(function (worksheet) {
+        $.googleSheetToJSON('1nO2nV65Vi3dZWGlaIOXLEc-_JWEZK16XFbjQVH_3Q0U', worksheet)
+        .done(function (rows) {
+            var ngayBatDau, soTuan;
+            var count = 0;
+            rows.forEach(function (row) {
+                count++;
+                Object.getOwnPropertyNames(row).forEach(function (name) {
+                    if(name == 'ngaybatdau')
+                        ngayBatDau = row[name];
+                    else if(name == 'sotuanthuchien')
+                        soTuan = row[name];
+                });
+                return;
+            });
+            if (count == 0) {
+                $("#thongtin_tuan").html('Lỗi');
+            } else {
+                addThongtintuan(ngayBatDau, soTuan);
+                kiemtraNoiDung();
+            }
+        })
+        .fail(function (err) {
+            //
+        });
+    });
+}
+
+function addThongtintuan(ngayBatDau, soTuan){
+    var thoiGianBatDau, thoiGianKetThuc;
+    var thongTinTuan;
+    var danhSachTuan = [];
+    var parts = ngayBatDau.split('/');
+    var ngayBatDau = new Date(parts[2], parts[1] - 1, parts[0]); 
+    ngayBatDau = new Date(ngayBatDau.setDate(ngayBatDau.getDate()  - 7));
+    for (var i = 0; i < soTuan; i++) {
+        thongTinTuan = [];
+        thoiGianBatDau = new Date(ngayBatDau.setDate(ngayBatDau.getDate() + 7));
+        thongTinTuan.push("Từ "+thoiGianBatDau.toLocaleDateString('vi-VN'));
+        thoiGianKetThuc = new Date(thoiGianBatDau.setDate(thoiGianBatDau.getDate() + 6));
+        thongTinTuan.push(" đến "+thoiGianKetThuc.toLocaleDateString('vi-VN'));
+        danhSachTuan.push(thongTinTuan);
+    }
+    // var table = document.getElementById("time-report-tuan");
+    for(var i = 0; i < danhSachTuan.length; i++)
+    {
+        document.getElementById('time-'+i).innerHTML = danhSachTuan[i];
+    }
+}
+
+
+function xemNoiDung(x){
+
+    if(document.getElementById(x).style.display == 'none' ){
+        document.getElementById(x).style.display = '';
+    }
+    else{
+        document.getElementById(x).style.display = 'none';
+    }
+}
+
+function kiemtraNoiDung(){
+    var arrayND = ['cttuan-mot','cttuan-hai','cttuan-ba','cttuan-bon','cttuan-nam','cttuan-sau','cttuan-bay','cttuan-tam','cttuan-chin','cttuan-muoi','cttuan-muoi-mot','cttuan-muoi-hai',];
+    var i;
+    for(i = 0 ; i< arrayND.length; i++)
+    {
+        var content_ = document.getElementById(arrayND[i]).innerHTML;
+        if(content_ != '---' || content_.length >= 5 )
+            {
+                document.getElementById('showhide-'+arrayND[i]).style.display = '';
+                document.getElementById('showhide-'+arrayND[i]).innerHTML = 'Đã nộp';
+
+            }
+
+        else document.getElementById('showhide-'+arrayND[i]).style.display = 'none';
+    }
+    
+    
+}
