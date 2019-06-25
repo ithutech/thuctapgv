@@ -52,7 +52,7 @@ input, textarea, select, button {
   font-size: 13px; }
 
 p, h1, h2, h3, h4, h5, h6, ul {
-  margin: 0; 
+  margin: 0;
   padding:15px 0px;
 }
 
@@ -81,10 +81,10 @@ a:hover {
   margin: auto;
   padding-top: 68px;
   padding-bottom: 48px;
-  
+
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center; 
+  background-position: center;
   }
   .inner h3 {
     text-transform: uppercase;
@@ -288,7 +288,7 @@ span.ttsv b {
     color: darkcyan;
     width: 86px;
   }
-  
+
   .box-noti button.btn-view-ct {
     background-color: #C7E5FC;
     color: darkcyan;
@@ -312,11 +312,11 @@ span.ttsv b {
     background-color:lightblue;
   }
   /* response */
-  
+
   .box-noti button.btn-view-ct:hover{
     color:green;
     }
-    
+
     .box-noti{
       position:relative;
       /* width: 260px; */
@@ -332,7 +332,7 @@ span.ttsv b {
       background: #64D97A;
       color: white;
       font-size: 12px;
-    
+
     }
 
 
@@ -351,6 +351,8 @@ span.ttsv b {
     .modal-content{
       min-width: 768px;
     }
+
+
     @media (max-width: 768px) {
       .time-baocao{
         width: 47%;
@@ -359,7 +361,7 @@ span.ttsv b {
         width: 95%;
       }
     }
-    @media screen and (min-width: 769px) { 
+    @media screen and (min-width: 769px) {
       .time-baocao{
         width: 49%;
       }
@@ -367,7 +369,7 @@ span.ttsv b {
         width: 95%;
       }
     }
-    @media screen and (min-width: 992px) { 
+    @media screen and (min-width: 992px) {
       .time-baocao{
         width: 57%;
       }
@@ -380,3 +382,233 @@ span.ttsv b {
       border: 1px solid lightgrey;
       padding: 10px 0 10px 13px;
   }
+
+/* Import Box Alert success and Error */
+
+
+.isa_info, .isa_success, .isa_warning, .isa_error {
+margin: 10px 0px;
+padding:12px;
+
+}
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    font-size: 15px;
+
+}
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.isa_error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+    font-size: 15px;
+}
+.isa_info i, .isa_success i, .isa_warning i, .isa_error i {
+    margin:10px 22px;
+    font-size:2em;
+    vertical-align:middle;
+}
+
+/* Pop up profile 5 */
+
+.btn {
+  padding: 4px 14px;
+  display: inline-block;
+  -webkit-transition: all linear 0.15s;
+  transition: all linear 0.15s;
+  border-radius: 3px;
+  background: rgb(211, 238, 241);
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: indianred;
+}
+
+.btn:hover {
+  opacity: 0.55;
+  color: lightcoral;
+}
+
+.popup-wrap {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: '';
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 100;
+}
+
+.popup-box {
+  z-index: 100;
+  height: 65%;
+  width: 40%;
+  padding: 30px;
+  transform: translate(-50%, -50%) scale(0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  background: #fff;
+  overflow: auto;
+}
+
+.popup-box .close-btn {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  border-radius: 1000px;
+  background: #d75f70;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  line-height: 190%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.popup-box .close-btn:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.transform-in,
+.transform-out {
+  display: block;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.transform-in {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.transform-out {
+  -webkit-transform: translate(-50%, -50%) scale(0.5);
+  transform: translate(-50%, -50%) scale(0.5);
+}
+
+/* Update profile_gv */
+#update_form_gv{
+  padding: 0;
+}
+#profile_gv {
+    float: left;
+    margin: 20px 0 20px 11px;
+}
+
+.slide-right {
+    float: left;
+    width: 220px;
+}
+marquee.marquee-slide-right {
+    float: right;
+    width: 400px;
+    margin-left: 20px;
+    padding: 7px 8px;
+    font-size: 20px;
+    color: indianred;
+}
+/* Cusstom button update */
+
+
+/* Update submit form and show password */
+span.flit-left {
+    float: left;
+    margin-top: 8px;
+    margin-left: 2px;
+    /* padding: 2px 3px; */
+}
+
+input.form-control.flit-right {
+    float: right;
+    width: 50%;
+}
+input.form-control.flit-right:hover
+{
+  box-shadow: 0px 2px 2px lightcoral;
+    color: lightcoral;
+    background-color: lightgoldenrodyellow;
+}
+#re{
+  clear: both;
+}
+
+/* Custom error page */
+.go_to_home {
+    margin: 0 auto;
+    width: 112px;
+    height: 50px;
+    margin-top: 30px;
+}
+.go_to_home a {
+    margin: 0 auto;
+    width: 150px;
+    background-color: orange;
+    color: white;
+    padding: 14px 16px;
+    font-weight: bold;
+    text-align: center;
+}
+h2.h2_error {
+    width: 349px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -80px;
+    background-color: white;
+    text-align: center;
+    font-size: 22px;
+}
+h1.h1_error{
+  font-size: 150px;
+  text-align: center;
+
+}
+@media screen and (min-width: 480px){
+  .popup-box {
+    height: 68%;
+    width: 400px;
+  }
+  .box-user-thongbao >a {
+    margin-left: 120px;
+  }
+}
+
+
+
+@media screen and (min-width: 960px){
+  .popup-box {
+    height: 59%;
+    width: 80%;
+  }
+  .box-user-thongbao >a {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1025px){
+  .popup-box {
+    height: 59%;
+    width: 800px;
+  }
+  .box-user-thongbao >a {
+    margin-left: 0;
+  }
+}
