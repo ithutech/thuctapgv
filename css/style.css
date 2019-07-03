@@ -362,8 +362,14 @@ span.ttsv b {
       }
     }
     @media screen and (min-width: 769px) {
+
+    .modal-dialog {
+        width: 887px;
+        margin: 60px auto;
+    }
+
       .time-baocao{
-        width: 49%;
+        width: 57%;
       }
       #baocao .sort .view-report {
         width: 95%;
@@ -526,6 +532,7 @@ marquee.marquee-slide-right {
     font-size: 20px;
     color: indianred;
 }
+
 /* Cusstom button update */
 
 
@@ -534,7 +541,14 @@ span.flit-left {
     float: left;
     margin-top: 8px;
     margin-left: 2px;
-    /* padding: 2px 3px; */
+    position: absolute;
+}
+img#loading_update{
+    width: 44px;
+    position:relative;
+    float: right;
+    right: 10px;
+    visibility: hidden;
 }
 
 input.form-control.flit-right {
@@ -605,10 +619,114 @@ h1.h1_error{
 
 @media screen and (min-width: 1025px){
   .popup-box {
-    height: 59%;
+    height: 65%;
     width: 800px;
   }
   .box-user-thongbao >a {
     margin-left: 0;
   }
+}
+
+
+
+
+/* CHAM DIEM CSS */
+
+div.gvChamDiem {
+    padding: 14px 14px;
+    margin-top: 10px;
+    min-height: 60px;
+}
+
+
+div#btnPoint {
+    user-select: none;
+    -moz-user-select: none;
+    font-weight: bold;
+    color: lightcoral;
+    margin-left: 20px;
+    float: left;
+    border: 2px solid lightcoral;
+    padding: 4px 30px;
+    border-radius: 20px;
+    margin-top: 13px;
+	-webkit-transition: background-color 1s;
+    transition: background-color 1s;
+}
+
+    div#btnPoint:hover {background-color: antiquewhite;
+      cursor: pointer;
+
+    }
+    #btn_deactive {
+        user-select: none;
+        -moz-user-select: none;
+        font-weight: bold;
+        color: #008000b0;
+        margin-left: 20px;
+        float: left;
+        padding: 6px 38px;
+        border-radius: 20px;
+        margin-top: 13px;
+        background-color: #CEF6CE;
+    }
+    #btn_deactive:hover{
+      cursor: not-allowed;
+    }
+div#showData_Point {
+    float: left;
+}
+
+input#inputPoint {
+    border: none;
+    border-bottom: 2px solid lightcoral;
+    width: 130px;
+    padding: 5px 0;
+    text-align: center;
+    color: lightcoral;
+    font-weight: bold;
+    font-size: 22px;
+    min-width: 130px;
+}
+
+input#inputPoint::-webkit-input-placeholder {
+    color: indianred;
+    opacity: 0.8;
+    font-size: 13.5px;
+
+}
+
+input#inputPoint:hover {
+    opacity: 0.5;
+}
+
+.div_center {
+    margin: 0 auto;
+    width: 400px;
+    min-width: 400px;
+}
+
+    .area_point{
+        margin: 0 auto;
+        width: 290px;
+        min-width: 290px;
+        min-height: 40px;
+        position:relative;
+
+    }
+.showData_Note{
+    text-align:center;
+    width:auto;
+    float:both;
+    padding: 14px 16px;
+    font-size:14px;
+    color: green;
+}
+
+img#image_sucess, img#image_loading {
+    position: absolute;
+    width: 30px;
+    top: 12px;
+    right: -35px;
+    visibility: hidden;
 }
