@@ -1,52 +1,8 @@
-;
-(function($, window, document, undefined) {
-  window.method = sha1;
-  //method = sha1;
-
-  $(document).ready(function() {
-    var input = $('#hash_input_p'),
-      output = $('#hash_output_p');
-    var input_pchange = $('#hash_input_pchange'),
-      output_pchange = $('#hash_output_pchange');
-    var execute = function() {
-      try {
-        output.val(method(input.val()));
-      } catch (e) {
-        output.val(e);
-      }
-    }
-    var excute_change = function() {
-      try {
-        output_pchange.val(method(input_pchange.val()));
-      } catch (e) {
-        output_pchange.val(e);
-      }
-    }
-
-    function autoUpdate() {
-      execute();
-    }
-
-    function autoUpdate_change() {
-      excute_change();
-    }
-    if (input.length >= 0) {
-      input.bind('input propertychange', autoUpdate);
-      //Dữ liệu nhập vào - Tự động hóa Mã hóa
-    }
-    if (input_pchange.length >= 0) {
-      input_pchange.bind('input propertychange', autoUpdate_change);
-    }
-
-  });
-})(jQuery, window, document);
-
-
-var script_url = "https://script.google.com/macros/s/AKfycbz-3jqC2TEfzWVk_Ne4Co92VIA4Df_seZIan_oZI4ypxKjlNBY/exec";
+var script_url = "https://script.google.com/macros/s/AKfycbyFfCFki08xRb5z0eAu9CbqZaz4JN3d_xtNb32laJSmVQ-vbu0/exec";
 
 function update_pass_value() {
-  var passgv_v1 = $("#hash_input_pchange").val();
-  var passgv_v2 = $("#passgv_prof_repeat").val();
+  var passgv_v1 = $("#matkhaumoi").val();
+  var passgv_v2 = $("#nhaplaimatkhaumoi").val();
   if (passgv_v1 === passgv_v2 && passgv_v1.length >= 5 && passgv_v2.length >= 5)
     update_value();
   else {
@@ -66,10 +22,11 @@ function update_pass_value() {
 
 function update_value() {
   $("#re").css("visibility", "hidden");
-  // document.getElementById("loader").style.visibility = "visible";
+  document.getElementById("loading_update").style.visibility = "visible";
   var idgv = $("#idgv_prof").val().replace(/ /g, '');
-  var passgv = $("#hash_output_pchange").val().replace(/ /g, '');
-  var passgv_changed = $("#hash_input_pchange").val().replace(/ /g, '');
+  var getPass = $("#matkhaumoi").val().replace(/ /g, '');
+  var passgv = ITHUTECHMD5(getPass);
+  var passgv_changed = $("#nhaplaimatkhaumoi").val().replace(/ /g, '');
 
   var url = script_url + "?callback=ctrlq&passgv=" + passgv + "&passgv_changed=" + passgv_changed + "&idgv=" + idgv + "&action=update";
   var request = jQuery.ajax({
@@ -85,6 +42,8 @@ function update_value() {
 function ctrlq(e) {
   $("#re").html(e.result);
   $("#re").css("visibility", "visible");
+  document.getElementById("loading_update").style.visibility = "hidden";
+
 }
 // Khoong dung khoang trang cho mat khau
 function BlockSpace(e) {
@@ -94,8 +53,8 @@ function BlockSpace(e) {
 
 
 function showhidepass() {
-  var temp = document.getElementById("passgv_prof_repeat");
-  var temp_repeat = document.getElementById("hash_input_pchange");
+  var temp = document.getElementById("matkhaumoi");
+  var temp_repeat = document.getElementById("nhaplaimatkhaumoi");
 
   if (temp.type === "password" || temp_repeat === "password") {
     temp.type = "text";
