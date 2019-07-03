@@ -522,7 +522,7 @@ padding:12px;
 
 .slide-right {
     float: left;
-    width: 220px;
+    /* width: 220px; */
 }
 marquee.marquee-slide-right {
     float: right;
@@ -595,6 +595,14 @@ h1.h1_error{
   text-align: center;
 
 }
+@media screen and (min-width: 310px){
+  .popup-box {
+    height: 83%;
+    width: 97px;
+  }
+
+}
+
 @media screen and (min-width: 480px){
   .popup-box {
     height: 68%;
